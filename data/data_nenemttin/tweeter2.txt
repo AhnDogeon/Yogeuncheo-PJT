@@ -1,0 +1,436 @@
+,user_id,tweet_id,timestamp,likes,text,retweets
+0,19843008,107240884680146944,,0,"@RTWilkinsIII He did. After the .com bubble burst at end of Clinton pres, the tax cuts created 8M over 4 yrs. @DAbitty @catawu @LOLGOP",0.0
+1,60073032,107240880926240769,,0,lmao! QT @2much336: beyonce copied donald trump because she wears wigs,1.0
+2,167202716,107240810034114560,,0,"I'm at The Firehouse Saloon (814 South Clinton Ave, Meigs St, Rochester) http://4sq.com/qOgOrJ ",0.0
+3,303900829,107240809233006592,,0,Donald Trump to Discuss the “Economic Crisis in America” on “The... http://bit.ly/qTDTEH ,0.0
+4,68536886,107240747442507777,,0,"""@DwyaneWade: Getting ready for #Wade'sWorld gala dinner at the trump..if your not there ur missing out.."" lol u ain't invite us !",0.0
+5,215461335,107240717134467072,,0,"RT ""@DwyaneWade: Getting ready for #Wade'sWorld gala dinner at the trump..if your not there ur missing out..""",0.0
+6,293355149,107240710037708800,,0,"My bad, be there for it next year“@DwyaneWade: Getting ready for #Wade'sWorld gala dinner at the trump..if your not there ur missing out..”",0.0
+7,182624509,107240658703613952,,0,Yall gettin ready for practice yet RT @DwyaneWade: Getting ready for #Wade'sWorld gala dinner at the trump..if your not there ur missing out,0.0
+8,241757693,107240658493902848,,0,"""@DwyaneWade: Getting ready for #Wade'sWorld gala dinner at the trump..if your not there ur missing out..< Wish I was there!!!Love YOU!!!!!",0.0
+9,44456890,107240366570356736,,0,"Photo: Alison Van Pelt working on Bill Clinton, oil and acrylic on canvas http://tumblr.com/xk94c018c2 ",0.0
+10,33995409,107240336526557184,,4,Getting ready for #Wade'sWorld gala dinner at the trump..if your not there ur missing out..,21.0
+11,39366481,107240313487245312,,0,WeBo takes 14-0 lead on Clinton Central with 1:50 left in first quarter.,1.0
+12,27939714,107240304612081664,,0,Yayyyyy RT @cburkeuga: Happy Birthday @diana_rosen! Party in a suite at the Trump Soho http://lockerz.com/s/133153375 ,0.0
+13,96176841,107240288313032704,,0,"Up ;) @2Tall: ""The Disco Fries feat. Clinton Sparks - Killer [Tommie Sunshine & Codes Remix]"" ♫ http://blip.fm/~173wy3 ",0.0
+14,87780046,107240258399248384,,0,"If you are going to be thinking anyway, you might as well think big! ~Donald Trump Think big! -->http://bit.ly/9dyT1b ",0.0
+15,164133734,107240231996108800,,0,#YB RT @KissThyLip: I Accept Donald Trump As A Mentor :),0.0
+16,64491388,107240206683484160,,0,beyonce copied donald trump because she wears wigs,2.0
+17,93694951,107240205295157248,,0,No pushy selling with top team. The Trump Network wants you Full training and support from key leaders. http://bit.ly/U4Ys ,0.0
+18,244295417,107240192049561600,,0,why are we in Clinton getting graph paper? that isn't edible and serves me no purpose,0.0
+19,135247470,107240169182216192,,0,"A Few Clouds and 79 F at Clinton Municipal Automatic Weather Observing, IA Winds are Southwest at 4.6 MPH (4 KT). The h http://s1z.us/nw.htm ",0.0
+20,163907923,17368466675736576,,0,PETA names person of the year; Bill Clinton http://bit.ly/fLKUba,0.0
+21,20272429,17368386279309312,,0,"*Tonight & every tuesday from 8pm to 9pm ""The Tone Trump Show"" on www.fleetdjs.com shout to @DjD1ct & all the @FLEETDJS",1.0
+22,67900917,17368375659335681,,0,"@ToneTrump: PROMO VIDE0: ""WorldStar Tony"" Tour! Dec 22 TONE TRUMP performing LIVE in West Virginia! - http://bit.ly/gDcXlb #letswin!",0.0
+23,88832457,17368354436157440,,0,#Tickets #Forsale Lions VS Vikings (1-2-11) 30 yardline (clinton twp.) $140: i have two tickets to lio... http://bit.ly/eVhXh2 #Concerts,0.0
+24,221159398,17368353744101376,,0,"٩͡and#239;̯͡and#239;۶ #peta PETA names person of the year; Bill Clinton  Examiner.com http://chilp.it/779db3
+ #hair  http://HAIRY.com",0.0
+25,121249721,17368328355971072,,0,"PETA names person of the year; Bill Clinton: So, he changed his eating habits to a healthy plant based diet. Bec... http://bit.ly/eLQq4G",0.0
+26,20272429,17368257438683137,,0,"RT @msangeline: PROMO VIDE0: ""WorldStar Tony"" Tour! Dec 22 TONE TRUMP performing LIVE in West Virginia! - http://bit.ly/gDcXlb #letswin!",0.0
+27,61252299,17368127125856256,,0,"tava na rua com juliana, lucas, clinton, luisa e dudu (:",0.0
+28,93694951,17368117877415936,,0,The Trump Network Schedule More of the hottest marketing tools like this automation system. http://bit.ly/dtZR7E/,0.0
+29,55758044,17368020036886528,,0,Donald Trump Roast | Comedy Central | Roastmaster | Joan Rivers ... http://bit.ly/hMLvkJ,0.0
+30,79916556,17368019932028928,,0,Donald Trump Roast | Comedy Central | Roastmaster | Joan Rivers ...: The Comedy Central Roast began in 2003 when... http://bit.ly/enfoBO,0.0
+31,79006087,17368017956507648,,0,Donald Trump Roast | Comedy Central | Roastmaster | Joan Rivers ... http://bit.ly/eqxM3k,0.0
+32,15563232,17367767376203777,,0,"What psychological personality tests reveal about Clinton, Obama, and McCain http://slate.me/dStaxh ~Obama is ENFP apparently @jjvornov",0.0
+33,15651655,17367652318056448,,1,@overvision @george_clinton @itscarlon @JunieMorrison Here's what Santa looks like in Detroit! http://youtu.be/5gPdFO3lvrc  (via @nelsdrums),0.0
+34,48520590,17367610437935105,,0,RT @BankBoyz_Trump_: #LEEGGOOO http://twitpic.com/3i7j2d,0.0
+35,154217607,17367304081772544,,0,"Clinton Sparks- Favorite DJ (Ft. Jermaine Dupri & DJ Class) + Favorite DJ (Remix) Ft. Sean Paul, Ricky Blaze & S... http://bit.ly/gT3RxG",0.0
+36,154217607,17367304069185537,,0,"Clinton Sparks- Favorite DJ (Ft. Jermaine Dupri & DJ Class) + Favorite DJ (Remix) Ft. Sean Paul, Ricky Blaze & S... http://bit.ly/gT3RxG",0.0
+37,28571943,17367273727594496,,0,U in the trump international 30 floors up? RT @LilKimDaGoddess: RT @LILKIMLAND: Rap superstar Lil Kim and real ... http://tmi.me/4shTx,0.0
+38,100988880,17367235676868608,,0,"@antriach hmv do them, +clinton cards i think. if not head down to whiterose a stall in there have them!xx",1.0
+39,198929282,17367210209054720,,0,@Cj_Trump wat yu doin wen yu leave there,0.0
+40,7804552,175234892,,0,El escote de Hillary Clinton genera debate en los Estados Unidos. http://fon.gs/hillary,0.0
+41,1367531,174856682,,0,POLITICS: Gingrich Predicts Clinton-Obama 2008 Ticket http://tinyurl.com/22rc7k,0.0
+42,789943,174844382,,0,"It's a Brand New Monarhcy, @alphatude! Alternating royal families. Next up: Jebby boy! Clinton Inevitablity is the new Kerry Electability",0.0
+43,6934522,174643792,,0,Hillary Says Clinton Calls on College Dems to Serve Others: The State http://tinyurl.com/2f9d7o,0.0
+44,654203,174599232,,0,Washington split over Clinton cleavage http://tinyurl.com/yoptnx,0.0
+45,7380082,174419602,,0,Debatte um Clinton-Dekolletee (krone.at) http://tinyurl.com/yod6ag,0.0
+46,7001592,174333582,,0,[DSM-Register] Vilsack says Obama warps Clinton words: Vilsack specifically noted a c.. http://tinyurl.com/2w8hte,0.0
+47,3539841,174087792,,0,ok so local.cf doesn't really trump amavisd?,0.0
+48,24063,174005282,,1,Donald Trump is gay?,8.0
+49,806946,173824042,,0,"The College Transformation of Hillary Clinton: from R to D: [Reading] In the ’60s, a Future Candidate Pour.. http://tinyurl.com/2khfb5",0.0
+50,1767741,173747562,,0,Foreign Policy Makes Fodder For Obama And Clinton http://tinyurl.com/yrehoj,0.0
+51,2768501,173674842,,0,Washington split over Clinton cleavage: Hillary Clinton's cleavage has suddenly burst into one of the hot.. http://tinyurl.com/yweqzb,0.0
+52,6418922,173615472,,0,EE: I'm not trying to be disrespectful to Sen. Clinton; I just think John has been better on the issues women bring to me.,0.0
+53,6418922,173614702,,0,EE: Sen. Obama & Clinton's healthcare plans don't offer universal coverage. we're going to have to raise taxes on $200K/year earners.,0.0
+54,6418922,173613152,,0,"EE: women ask often about healthcare, both broad and specific.  I don't think Senator Clinton is 100 percent there on universal coverage.",0.0
+55,228055022,287347676247367680,,0,"""@Common_Sense4U: OBAMA, TAXES & THE FISCAL CLIFF: HE IS NO BILL CLINTON!. #teaparty #tcot #tlot #ocra http://tinyurl.com/czv659c "" @AlwayzSusan",0.0
+56,916822208,287347673084882945,,0,@ryonyan_trump @rinne_trump ホントに無茶だけはダメだよ(^^;,0.0
+57,457170582,287347605988581377,,1,Young trump in this bitch you don't know who he be #discosusaaan,0.0
+58,172867574,287347587193913344,,0,State Dept. Slams Fox News 'Credible Journalist' for 'Asinine' Question About Clinton's Health | Video Cafe http://videocafe.crooksandliars.com/david/state-dept-slams-fox-news-credible-journalis …,1.0
+59,735209652,287347579304415232,,1,Hockey night at the Clinton Arena as New Hartford takes on Clinton. Our coverage starts at 7:20 on WUSP 95.5fm/1550am WRCK 1480am,0.0
+60,388272317,287347561411522560,,0,［VOA］ American Secretary of State Hillary Clinton Recovers From Health Scare at Home http://dlvr.it/2lLKHJ ,0.0
+61,339227120,287347540825890817,,0,@rebecca_clinton just amazing!!!,0.0
+62,20974723,287347524073820160,,0,"""FOR THE LOVE OF MUSIC"" DISC 1 & 2 HOSTED BY CLINTON SPARKS/ MIXED BY DJ MOTION http://shar.es/GnvH5   via @sharethispic.twitter.com/Zq5Hijox",0.0
+63,18416448,287347493547679746,,0,James Carville: Hillary Clinton haters ‘inhumane’ - Kevin Cirilli - http://POLITICO.com : http://www.politico.com/story/2013/01/james-carville-hillary-clinton-haters-inhumane-85790.html#.UOdsaNW0KuA.twitter … via @POLITICO,0.0
+64,25828942,287347394788618240,,0,"""@MarketWatch: Who should be the face of a $1 trillion coin: Ronald Reagan? Donald Trump? http://on.mktw.net/138LKFE "" George Bush!",0.0
+65,36994887,287347327449063424,,0,@VianneyTalia I have the same birthday as Hilary Clinton! Lol. #October26 #random,0.0
+66,234155215,287347260642193408,,1,"Hammers, so long as men like Barack Obama, Charles Schumer, Dick Durbin, Hillary Clinton...  cough... Van Jones,... http://fb.me/160s4AWpi ",0.0
+67,428603137,287347229885333504,,0,"@YormanMontero en USA daban noticias e informes diarios sobre la salud de Hillary Clinton, te invito a leer!!! @marquina04 @NelsonBocaranda",0.0
+68,90197245,287347148746543104,,0,next up #Apollo “@dcsportsbog: New to me: Clinton Portis featured on an HGTV house-hunting show next week http://www.hgtv.com/scoring-the-deal/a-one-of-a-kind-miami-condo-with-killer-views-for-nfl-star-clinton-portis/index.html …”,0.0
+69,126145029,287347143960850432,,0,"Hillary Clinton says a lot of great things, but this might be one of her best quotes ever. (via @Upworthy) LOVELY TRUTH http://www.upworthy.com/the-truth-about-gay-people?g=3&c=upw1 …",2.0
+70,190008961,287347084535951360,,0,"Hillary Clinton says a lot of great things, but this might be one of her best quotes ever. (via @Upworthy) http://www.upworthy.com/the-truth-about-gay-people?g=3&c=upw1 …",0.0
+71,426247219,287347079972540416,,0,"NeNe Leakes Confirms That She’s Getting Married, Again, And Talks Donald Trump Claiming He Started Her Career http://bit.ly/UPpVch ",0.0
+72,28054077,287347070325645312,,0,“@dcsportsbog: New to me: Clinton Portis featured on an HGTV house-hunting show next week http://www.hgtv.com/scoring-the-deal/a-one-of-a-kind-miami-condo-with-killer-views-for-nfl-star-clinton-portis/index.html …” --- OH MAN can't wait.,0.0
+73,16532363,287347036255309826,,0,It's 70's Soul headed to Trump Taj Mahal @trumpcasinos The decades biggest names will be in AC details & lineup... http://fb.me/29P3qBSC7 ,0.0
+74,38147581,287347028353241088,,0,"@BessByers He does NOT feel our pain, or even pretend to feel it like Bill Clinton did. $30 could go a long way at the grocery store.",0.0
+75,23009951,377219698917912576,,0,Bad bitch! RT “@WSJ: Hillary Clinton backs President Obama's call for military strikes against Syria. http://on.wsj.com/1ewUJqW ”,0.0
+76,28552361,377219672048807936,,0,BLOG do CLINTON MEDEIROS : ABAIXO ASSINADO CONTRA A CONAB FECHAR NA MICRORREG... http://clintonmedeiros.blogspot.com/2013/09/abaixo-assinado-contra-conab-fechar-na.html?spref=tw …,0.0
+77,361016725,377219639714910209,,0,"""@RawStory: Michele Bachmann says the GOP can beat Hillary Clinton ""if we cry out to God"" http://ow.ly/oImg2 "" it's worked 4 her, right?",0.0
+78,329892220,377219636267614208,,0,Equal comparison of men. Minus the infidelity and cigar in a vagina. Smooth and cool like Clinton. http://instagram.com/p/eDvkEoMr46/ ,0.0
+79,152570450,377219617535852544,,0,nah RT @kompascom: Ketika Hillary Clinton Mendukung Obama Soal Suriah... http://kom.ps/AF1XtG ,0.0
+80,1401198542,377219599915581440,,0,#FollowRadioPepatah Ketika Hillary Clinton Mendukung Obama Soal Suriah... #FollowRadioPepatah,0.0
+81,1375366872,377219596794601472,,0,"Hillary Clinton dice che è giusto raggiungere un accordo con la Siria per mettere al sicuro i ns paesi amici.
+Come ritirata è strategica!!",1.0
+82,80958505,377219592927444992,,0,"Clinton: Syria weapons surrender shouldn't be ""excuse for delay"" - CBS News Video http://www.cbsnews.com/video/watch/?id=50154656n …",0.0
+83,991221307,377219489622163456,,0,2016 repercussions? Hillary Clinton backs Obama on Syria action http://bit.ly/13D1a7e ,0.0
+84,418169631,377219457992892417,,0,"aye trill clinton, I settled for trill gates #trillsquadd",1.0
+85,796067058,377219435037491200,,0,"Saranac 1, Northeastern Clinton 0, 14 minutes remain in the second half.",0.0
+86,337408951,377219429085765632,,0,Clinton Portis  coming in?,0.0
+87,46786865,377219426229420032,,0,“@TheLeadCNN: Former Clinton press secretary @deemyers : Obama has to lead on Syria http://thelead.blogs.cnn.com/2013/09/09/former-clinton-press-secretary-obama-has-to-lead-on-syria/ …” Lanny/James/Paul not far nehind?,0.0
+88,552627447,377219410173636608,,0,@Ryo_clinton uda jumpa kami yos hehe,0.0
+89,528704893,377219338719494145,,1,“@kayla_clinton: Anna downs and you look a like — I don't see it http://ask.fm/a/65lppjhn ”  omfg,0.0
+90,792184483,377219325574533121,,0,"Opinion: Kerry, Clinton and a glimmer of hope on Syria: 
+    
+ http://bit.ly/1d0qzL3 ",0.0
+91,252629654,377219293483520000,,0,"Opinion: Kerry, Clinton and a glimmer of hope on Syria http://bit.ly/13D0YoH ",0.0
+92,520364511,377219287322492928,,0,"#SiguemeYTeSigo Opinion: Kerry, Clinton and a glimmer of hope on Syria: 
+    
+ http://bit.ly/1d0qzL3  #TeamFollowBack",0.0
+93,113651264,377219256351731713,,0,"#RGP Opinion: Kerry, Clinton and a glimmer of hope on Syria: 
+    
+ http://migre.me/g18AH ",0.0
+94,327421689,377219242099097602,,1,@UnansweredPoint Clinton Portis is going to be getting a call from Shanahan tonight lol...,0.0
+95,18295003,556964241706860545,,0,"‘Get over it’: Clinton defenders unhappy about Drudge’s anniversary reminder
+
+(Sent from CNR)",0.0
+96,129131438,556964238552338433,,1,If only Clinton would've made a play on the 2 pt. conversion,0.0
+97,301239085,556964220466511873,,0,I like teanna trump,0.0
+98,1102895232,556964187440951297,,0,Ha Ha Clinton Dix isn't even his real name tho..,0.0
+99,266160256,556964186337849344,,5,There is never shit to do in clinton twp.,2.0
+100,2975475400,556964116347498496,,0,What it says is that in many ways Hillary Clinton is still a polarizing figure.,0.0
+101,615570587,556964094511939584,,0,"@BarefootSnap @Mamadoxie @MMFlint 
+
+I hear Havana is looking to attract cigarsexuals like Bill Clinton.",0.0
+102,500346847,556964091969798144,,0,@_JustinMadeley yaah but Clinton Dix had 2 pics,0.0
+103,2393206267,556964077789282304,,0,@raygun01 @leolaporte I saw Clinton play his sax on the Arsenio Hall Show... I'm not sure about MTV #twitlive,0.0
+104,107581310,556964061490216961,,1,@joe_oca Clinton Dix was told to drop it... Rodgers was told not to throw to Sherman. You contradict yourself and that's why you are stupid,0.0
+105,2614001430,556964034054868992,,0,@ClintonFdn @AmericaCooks @MarySueMilliken CLINTON TALKS ABOUT SAVORING A CIGAR DIPPED IN PUSSY IN THE OVAL OFFICE!  NO SALSA!,0.0
+106,168662307,556963988802916353,,47,"Last drivers of the day at Trump National, Jupiter. Loving the sunset action/ Ohh que bonito! Mi swing? O atardecer? pic.twitter.com/E1LI6n82FK",6.0
+107,347535867,556963971270733825,,1,Been avoiding the #WNTW finale until now bc I didn't want it 2 end. Oh how I miss @clinton_kelly & @stacylondon but excited 4 her new show!,1.0
+108,558093419,556963950206914561,,1,Poll: Hillary Clinton Comfortably Leads Mitt Romney And Crushes Jeb Bush http://www.politicususa.com/2015/01/18/poll-hillary-clinton-comfortably-leads-mitt-romney-crushes-jeb-bush.html … via @politicususa,3.0
+109,702043789,556963944846610432,,0,@corinneogrady whats worse is giving up that 2 pt conversion...clinton dix had 2 ints but cost them the game,0.0
+110,18416448,556963943462088704,,1,Bill Clinton’s Net Worth is $80 million http://wp.me/p2CyvJ-4ri ,0.0
+111,477835069,556963940001783809,,1,Im pretty sire i could of broken up that 2 point conversion pass... no clue what the hell Ha-Ha Clinton Dix was doing,0.0
+112,1027540754,556963936042758144,,0,"@MikeSwiatkowski @T_Bertram13 I liked the redskins before Clinton left, and my guy got shot man. My favorite team is texans. I love Brady",0.0
+113,494690179,556963902374699008,,0,IS THE GREEN BAY COACH READY TO CRY CAUSE HE KNOW HE IS ABOUT TO GET A BIG OL DONALD TRUMP?   YOUR FIRED!!!!!! LOL,0.0
+114,480999779,556963897388072960,,0,@rynefrancour they were still winning tho. Even if Clinton Dix makes that play they're still losing. Bostick catches it games over,0.0
+115,424674727,197113061453213696,,0,"@michellemalkin i bet joe sestak wishes he took the bribe,who will clinton try next",0.0
+116,188212530,197113055132389377,,0,Today's goofy photo alert: #snooker star Judd Trump upon his defeat to Ali Carter at the Crucible today: http://www.independent.co.uk/sport/general/others/snooker-insults-fly-as-carter-shades-trump-in-thriller-7697737.html …,0.0
+117,453636462,197112916665835521,,0,What's A Trump ?,0.0
+118,249436659,197112865432420352,,0,Latest News - Clinton Heading to China Vowing to Raise Human Rights Concerns - Voice of America... #news http://bit.ly/KndBGn ,0.0
+119,217417987,197112834566520832,,0,Clinton in Saudi push to end crackdown in Syria http://tf.to/aqEGd ,0.0
+120,174115983,197112828308619264,,0,"Clinton viaja a China en medio de una tensión inédita en dos décadas: Washington, 30 abr (EFE).- La secretaria d... http://yhoo.it/KxKYLA ",0.0
+121,176141183,197112822516289537,,0,I hate Keyon Lee Clinton!,0.0
+122,152120497,197112756749602818,,0,"Great, BJ Clinton aka Bob Barker is back to work for The American People. While he's not skirt chasing he's filming Obama ads. #tbrs #enough",0.0
+123,417350950,197112746360311808,,0,@Britt_L10 trump!! But seriously @taylerburm_ and me are waitinggggg,0.0
+124,26145160,197112702894739457,,0,Secretary Clinton all but mum on Chen Guangcheng case http://latimesblogs.latimes.com/world_now/2012/04/hillary-clinton-chen-guangcheng-china.html … via @latimesworld ref,0.0
+125,190965203,197112697052082178,,1,It Figures… http://bit.ly/IBTiJY  Obama Camp Accused Clinton Of Using Bin Laden To ‘Score Political Points’.. #WAKEUPAMERICA...,3.0
+126,544479604,197112679213694977,,0,@thechew @chefsymon @clinton_kelly I believe it is me that drinks the most coffee! ;-),0.0
+127,256425109,197112608313188352,,0,"Clinton planteará en China ""todos los asuntos pendientes"", incluidos los DDHH http://dlvr.it/1Vp8FZ ",0.0
+128,39922435,197112447377747970,,0,Free fly fishing class offered in Clinton http://bit.ly/K0g6V6 ,0.0
+129,468488392,197112381602664448,,0,"#NYC #Neighborhood #Events in #Clinton Hill, #Brooklyn, New York - Learn to Meditate in Half a Day   Sat AM Class http://bit.ly/JHupsU ",0.0
+130,87665091,197112368537403392,,0,Take over the world when i'm on my donald trump shit.,0.0
+131,23778402,197112323482189826,,0,"Saw ""The Don"" in an elevator.. Donald Trump at the game.. just for the record, I did NOT say, ""You're Fired""..",2.0
+132,275835922,197112276405325825,,0,@NYR_JimmyV @luckylucy13 donald trump walked right in front of us... Playoffs brings out all the bandwagon fans!,0.0
+133,61822871,197112247481405440,,0,"@FollowA_TRUMP my baby! :( I hope she be okay, is she in the hospital?",0.0
+134,71461219,197112226048512000,,0,"Mechanical Engineer - Clinton Power Station - Clinton, IL Job (Clinton, IL, US) in Baltimore http://ow.ly/1jgT0i ",0.0
+135,1178914469230956545,1186794361243066369,,0,"NOW I KNOW WHY LINDSEY GRAHAM HASN'T DONE ANYTHING IN THE SENATE FOR PRESIDENT TRUMP YET ! TRUMP NEEDS HIS MARINES , CALL OUT MARSHALL LAW & ARREST THE DEMS FOR TREASON ,,, PERIOD... pic.twitter.com/dWCUfIrCZb",0.0
+136,27939737,1186794360807084032,,0,"This accurately describes what the Demoncrats are doing. Not just to Trump, but also to Presidency pic.twitter.com/FqlcOYRF9G",0.0
+137,1041536791654719489,1186794360345694209,,0,Curious to know how understanding “Benghazi” will help you understand trump? What?,0.0
+138,82458955,1186794359506624512,,0,I think it’s out in the open. Two quid pro quo’s. Is that enough for you? Why are you trying to run interference for trump? Is your name about to be sullied? #AmericaWantsToKnow #TrumpUkraine #TrumpRussia #LindsayWhatIsIt,0.0
+139,2175268051,1186794358684520448,,0,I’m not certain in the Trump era any traditional ideas of coalition building or detail oriented answers matter much. e.g. ‘half of black’ population has much greater problems w Trump than a Warren gay marriage joke,0.0
+140,846829170,1186794358466592769,,240,Meanwhile; Outside of Trump Tower #QuidProQuoTrumpsGottaGo #TuesdayThoughtspic.twitter.com/lVFY9gM1jr,139.0
+141,1095352832595816455,1186794358420443138,,1,"Biden was a Senator w/ no known history of race bating & no outlet. Trump a known race bater, w/ an unmatched Twitter presence & a 24 hour news cycle eager to repeat the mistakes of 2016. Not exactly the same thing... Jesus",0.0
+142,2713097230,1186794357522866176,,0,"FROM ONE #REPUBLICAN TO ANOTHER!
+EARLY CITY #VOTING STARTED MONDAY 10-21-2019. I VOTED TODAY, 10-22-2019
+PLEASE VOTE ON 11-03-2020 FOR THE #PRESIDENTIAL ELECTION .
+EARLY VOTING ALWAYS STARTS A COUPLE WEEKS BEFORE THIS DATE. 
+WE'RE GOING TO MAKE AMERICA GREAT AGAIN. 
+TEAM #TRUMP",0.0
+143,212707847,1186794357317353482,,1,"A negociação que o Trump fazia com o Ucraniano era de milhões em ajuda militar e liberar uma visita de Zelensky na casa Branca... Agora, imagina o que foi negociado pra essa visita animada! pic.twitter.com/llgCAtVWIt",0.0
+144,822749850580164608,1186794357162233863,,0,President Trump is right to keep administration members from secret tribunals: Rep. Biggs https://www.yahoo.com/news/president-trump-keep-administration-members-223558144.html?.tsrc=fauxdal …,0.0
+145,739413698695962624,1186794356906303489,,0,They won't. Trump supporters by and large dislike the pre-Trump Republican Party.,0.0
+146,539089733,1186794356348477441,,0,"Aí, está. Tava demorando para um dos BolsoKids imitar Trump. Esses caras são uns imbecis. https://twitter.com/veramagalhaes/status/1186777721139015687 …",0.0
+147,306337455,1186794356092493826,,1,"Maybe not, but it will bring Trump’s criminality much more into public view. Right now, it seems like only Democrats understand how corrupt he is. Fox News doesn’t show it. During impeachment, it can’t be hidden, avoided, buried, or explained away.",0.0
+148,1127319054585401344,1186794354788225024,,1,"Where is all that wall money? Or Puerto Rico money?  Or profit realized from so many govt agencies being understaffed?   I hope trump isn't raiding our treasury, but why wouldn't he?  He thinks it's all his.",0.0
+149,869295073,1186794354699952128,,0,"2/2  He's now killing students and impoverished protestors; sending tanks to the streets in a horrifying replay of the 1980s. Trump, Kin Jong-Un, Putin, Erdogan, Duarte, MBS, JInping...they're all cut from the same bolt of narcissistic, psychopathic, misogynistic, classist cloth. https://twitter.com/jacobinmag/status/1186767530678980608 …",0.0
+150,785197196127924224,1186794354532179968,,0,"@OutFrontCNN The reason people are asking for a different candidate is because the bots are busy tearing down all Dems. The bots don’t talk about Trump’s mistakes and lies. But constantly pointing out flaws( or imagined flaws) of Dems. We are taking away guns, insurance ...",0.0
+151,758716568851230721,1186794353408249856,,2,"iT wAs A peRfEcT cAlL.
+nO qUID pRo qUo.
+tRuMP wAs fRuStRaTeD. pic.twitter.com/jf4q7iWHOs",0.0
+152,1409535590,1186794353265524736,,0,"The Washington Post: Live updates: Taylor’s testimony on alleged Ukraine quid pro quo called ‘damning,’ as firestorm continues over Trump’s lynching tweet.
+https://www.washingtonpost.com/politics/trump-impeachment-inquiry-live-updates/2019/10/22/40959fb0-f454-11e9-ad8b-85e2aa00b5ce_story.html …
+
+via @GoogleNews this guy is a Hillary supporter he is compromised",0.0
+153,780802080642433025,1186794352372305921,,0,"Bill Taylor, the United States' top diplomat in Ukraine, reportedly testified to the House that Trump held up military aid to Ukraine unless its president agreed to investigate Joe Biden. https://www.huffpost.com/entry/bill-taylor-trump-ukraine-quid-pro-quo_n_5daf5003e4b0f34e3a7dc014?ncid=engmodushpmg00000004 … via @HuffPostPol",0.0
+154,1158160543758372864,1186794351701188608,,0,"Yes yes but none of those people were president trump so clearly it’s worse when he says it ,. #fuckinghypocrites",0.0
+155,15950681,1042678435,,0,Team Obama Wunderkind Caught Dallying with Clinton Cut-out http://tinyurl.com/6jhshw,0.0
+156,16391836,1042675294,,0,Un asesor de Obama se sobrepasa en Facebook con una Hillary Clinton de cartón http://bit.ly/QsS8 (ya pidió disculpas; vía Los Angeles Times),0.0
+157,9696002,1042667788,,0,Obama speechwriter photographed groping Hillary Clinton likeness http://snurl.com/7gv32,0.0
+158,14512095,1042665937,,0,"""Trashing"" the Town: What are the Villagers, who thought Bill Clinton came into ""their"" town and wrecked.. http://tinyurl.com/5mmp2b",0.0
+159,14640856,1042665511,,0,twHILLARY> Obama hopes to avoid Clinton health care missteps: WASHINGTON – President.. http://tinyurl.com/6xvppw,0.0
+160,14640856,1042665470,,0,twHILLARY> Obama hopes to avoid Clinton health care missteps: WASHINGTON – President.. http://tinyurl.com/5o7r3l,0.0
+161,14640856,1042665444,,0,"twHILLARY> Started my day reading Huff, funny photo of Bill Clinton. Looking forward to re.. http://tinyurl.com/5dkmz9",0.0
+162,16018717,1042665373,,0,congradulations Hilliary Rodan Clinton and I do like You I have jut been confused.,0.0
+163,16155637,1042664477,,0,Wow. Geweldige outfit van george clinton.,0.0
+164,17643164,1042663798,,0,Clinton Global Initiative University http://tinyurl.com/58x47v,0.0
+165,14948972,1042661065,,0,JasonPye.com: Senator Caroline Kennedy?: Caroline Kennedy may replace Hillary Clinton in the US Senate.. http://tinyurl.com/5hkezd,0.0
+166,14631841,1042653257,,0,@ImSleepDeprived I was done with it by the time I met hubby.  He was like clinton tried it once but didn't inhale... Bwah ha ha!,0.0
+167,17710639,1042652028,,0,just landed in Vegas!!! Raging at Trump. Marathon tomorrow. Champagne training and double head showers. Vegas is grand!,0.0
+168,16431639,1042645110,,0,Obama hopes to avoid Clinton health care missteps: WASHINGTON – President-elect Barack Obama and h.. http://twurl.nl/vk0e80,0.0
+169,17357075,1042644754,,0,Obama hopes to avoid Clinton health care missteps: WASHINGTON – President-elect Barack Obama and .. http://tinyurl.com/6bdmap,0.0
+170,17900080,1042643677,,0,"Started my day reading Huff, funny photo of Bill Clinton. Looking forward to reading your blog.",0.0
+171,16229544,1042634369,,0,"watching george clinton's ""atomic dog"" music video...one of the best lvids ive ever seen. hes Always 30 years ahead of everyone else.",0.0
+172,17070906,1042632485,,0,Incoming US Secretary of State #Hillary #Clinton told Prime Minister Ehud Olmert by telephone Satu.. http://tinyurl.com/6s7yb2,0.0
+173,17033473,1042632250,,0,"$3 well drinks and most draft beers, $1 off everything else - Barramundi - 67 Clinton St. near Rivington St. - 6pm-9pm - Lower East Side",0.0
+174,17033473,1042631199,,0,Two-for-one beers (bottled and draft) - Tapeo 29 - 29 Clinton St. at Stanton St. - 6pm-8pm - Lower East Side,0.0
+175,56876628,12367877937,,0,Just shook bill clinton's hand. . Legit.,0.0
+176,27659712,12367839903,,0,@LauraKoni its @ the Ramada Inn in Clinton,0.0
+177,114925156,12367827135,,0,#nowplaying: Flexxed up Trump Boyz,0.0
+178,130206620,12367822355,,0,We both shook President Clinton's hand!!!,0.0
+179,20204999,12367809044,,0,Been out by the pool with my three guys. Fun to watch them. Great ride with Jeffrey Parker today in Clinton. Good day all around. Lovin life,0.0
+180,84664241,12367803851,,0,"Humm RT @jaketapper Clinton: Rubin and Summers Gave Me Wrong Advice on Derivatives, and I Was Wrong To Take It http://is.gd/bxuiF #sgp #hhrs",0.0
+181,28883305,12367798630,,0,"""Thank you. I look forward to reading them."" -Bill Clinton on the letters I gave him from my students. #CGIU10",0.0
+182,16858755,12367767047,,0,"I've officially met 2 US presidents in my lifetime: President Obama and now President Clinton. Different handshake, but  both great people!",0.0
+183,616673,12367757025,,0,"@al3x @coda wish i could have gone, was at a three year old's party instead though... kiddo's friends trump your own I guess :)",0.0
+184,90318346,12367746395,,0,"""Donald Trump Jr on the New Trump SoHo Carry On Travel + Leisure"" http://bit.ly/c3SlUv",0.0
+185,29191945,12367745649,,0,@ the shell watcking John caparola in Trump Marina Hotel Casino http://loopt.us/mGSpow.t,0.0
+186,57564796,12367709147,,0,Yahoo: Redskins RB Portis can play in minicamp (AP): Washington Redskins running back Clinton Portis can participa... http://bit.ly/bo7NxE,0.0
+187,61577875,12367708938,,0,Yahoo: Redskins RB Portis can play in minicamp (AP): Washington Redskins running back Clinton Portis can participa... http://bit.ly/bo7NxE,0.0
+188,58875860,12367708427,,0,"Locker Room: Bill Clinton comments on Wake County school board majority: ""They are not gangsters,"" Mr. Clinton sai... http://bit.ly/b3Iq2M",0.0
+189,40467299,12367703224,,0,Breaking news: Bill Clinton comments on Wake County school board. http://bit.ly/dl2Yav. #wcpss,0.0
+190,107767880,12367692480,,0,Washington Redskins' Clinton Portis cleared to play after concussion http://bit.ly/b2gCPK,0.0
+191,64076056,12367672360,,0,Donald Trump Jr on the New Trump SoHo Carry On Travel + Leisure http://bit.ly/bOBHU8,0.0
+192,16504112,12367671137,,0,RT @jaketapper: Another #ThisWeek preview - Clinton: Rubin + Summers Gave Me Wrong Advice on Derivatives...  http://bit.ly/cVxN2Q,0.0
+193,122403659,12367653513,,0,Donald Trump Jr on the New Trump SoHo Carry On Travel + Leisure: Explore the Travel + Leisure Blog. Hear about the... http://bit.ly/9pOt8c,0.0
+194,79006087,12367652447,,0,Donald Trump Jr on the New Trump SoHo Carry On Travel + Leisure http://bit.ly/9iSWpA,0.0
+195,58849837,3275838365,,0,"Some of the highest profile celebrities like Oprah, Donald Trump and Larry King have discovered how huge twitter is.. http://bit.ly/R40LR",0.0
+196,55346496,3275836730,,0,Today's Lady News: Hillary Clinton Has No Sense Of Humor: The Frisky When Hillary Clinton snapped at the Afr.. http://bit.ly/vgE8g,0.0
+197,58849837,3275835350,,0,"Find Out The Truth About ""Donald Trump's Network Launch"" And See If It's Right For You At This Time... http://bit.ly/R40LR",0.0
+198,23592300,3275834029,,0,See How Donald Trump Plans To Change The Way Business Is Done Over The Internet To Create Millionaires http://bit.ly/Tj4uS,0.0
+199,58659515,3275833409,,0,"Bill Clinton is a big advocate of #publicoption. He was disappointed, however, when he discovered it wasn't #pubicoption. @trish1981",0.0
+200,20033561,3275830303,,0,20 Hillary Clinton kritiserer Nigeria for korrupsjon: Abuja (NTB-AFP-Reuters): USAs utenriksminister Hillary C.. http://bit.ly/1JZMew,0.0
+201,15495186,3275828411,,0,"Come to Netroots Nation #NN09 in Pittsburgh. We've got Bill Clinton, Howard Dean, and a ton of Crunch 'n Munch.",0.0
+202,57455429,3275827733,,0,Fiquei com vergonha pra esse estudante de jornalismo que levou o esporro da Hilllary Clinton : http://bit.ly/UXZ8S (via @Cardoso),0.0
+203,41237691,3275826632,,0,New blog post: Clinton suggests US could join war crimes court http://bit.ly/15f8aR,0.0
+204,18999261,3275826477,,0,Top Story: Ex-Clinton Aide in Prison Smuggling Case: A former chief of staff for Bill Clinton when he .. http://bit.ly/wY3La,0.0
+205,24296801,3275825010,,0,"Former Clinton aide Betsey Wright charged with taking knife, tattoo needles to Ark. death row
+
+http://bit.ly/11EMkN via @addthis",0.0
+206,60653464,3275822557,,0,The truth about Trump Network http://short.to/kz0d,0.0
+207,62347450,3275817607,,0,"The Trump Network Will Create More Millionaires Than The World Has Ever Seen, Don't Miss Out On This One. http://bit.ly/8WhIp",0.0
+208,18999261,3275815836,,0,Ex-Clinton Aide in Prison Smuggling Case: A former chief of staff for Bill Clinton when he was governor of Arkan.. http://bit.ly/wY3La,0.0
+209,62890267,3275811300,,0,Awesome. RT @hwmag Clinton boosts Harlem Zagat guide http://ff.im/6wnWF,0.0
+210,58840909,3275800640,,0,"The Trump Network Will Create More Millionaires In 12-18 Months Than The World Has Ever Seen,Don't Miss Out On This One. http://bit.ly/R40LR",0.0
+211,53577919,3275795078,,0,CNN: Clinton: Al Qaeda could seek 'foothold' in Nigeria http://snipurl.com/prld0,0.0
+212,58840909,3275794302,,0,"Here's A Few Of The Stops Next Month To Launch The Trump Network, Larry King, Oprah Winfrey. Now's The Time! .. http://bit.ly/R40LR",0.0
+213,18166958,3275793727,,0,@whereisjeannie Thanks for the NYT link re healthcare! I think we may find ourselves re-living 1993 and the Clinton initiative...,0.0
+214,58840909,3275791397,,0,"Donald Trump:How many times have you thought ""if I had just been in the right place at the right time""WELL YOU ARE NOW! http://bit.ly/R40LR",0.0
+215,448,54426,,0,Just shook President Clinton's hand.,0.0
+216,47,46687,,1,Just found the only Marzocco in Clinton Hill. At the well named Outpost.,0.0
+217,292,40283,,0,"Mmm, great brunch afterglow. Clinton St. Bakery, NYC.",0.0
+218,17,7693,,1,wordplay. clinton was wearing a friendship bracelet. making plans for tomorrow.,1.0
+219,14238959,781806287,,0,(2 thumbs up) hillary clinton vs. john mccain (2 thumbs up),0.0
+220,14238959,781805682,,0,(2 thumbs up) barack obama vs. hillary clinton (2 thumbs up),0.0
+221,8942262,781804164,,0,"Clinton opens N.C. headquarters: About 100 people attended the hourlong kickoff, including Wake Coun.. http://tinyurl.com/3chfpn",0.0
+222,12946702,781803898,,0,"McClatchy: Against McCain, Clinton bests Obama in swing-state polls http://is.gd/3TU",0.0
+223,3181211,781793109,,0,"Chelsea Clinton is coming to the OR Dem platform convention on Sat 4/12, but not staying for dinner! you'd think she had a better offer!",0.0
+224,10222862,781788813,,0,"Clinton, Obama focus on economy; McCain touts his years at Naval Academy - http://tinyurl.com/356ct8",0.0
+225,10283392,781788701,,0,Clinton opens N.C. headquarters http://tinyurl.com/3chfpn,0.0
+226,807095,781785275,,0,On Line: Clinton’s Persistence Could Help Obama http://tinyurl.com/2mguqv,0.0
+227,7933672,781782626,,0,"Back from seeing Bill. Wife shook his hand, and got autograph. She also heckled (in a good way) and drew a response from Bill. Clinton, BTW",0.0
+228,7998482,781781580,,0,"What's up Thursday: McCain in Jacksonville, Clinton in California: Republican John McCain continue.. http://tinyurl.com/28rj8v",0.0
+229,14174682,781781550,,0,Meeting Wendy for dinner at Sixteen in Trump Tower.,0.0
+230,13410182,781780991,,0,Insure Thops you words on US Forces Soared - When the BUCK -E http://flooddition Clinton-scorching of Clinton Thyseek.co.,0.0
+231,8934402,781780906,,0,"Mom's thoughts on Bill Clinton: ""If we were to believe everything he had to say, we would be running out to vote for Hillary right now.""",0.0
+232,8934402,781780518,,0,"My mom went to see Bill Clinton speak at a high school in Bend, Oregon on Monday... good thing my Dem-hating dad was out of town.",0.0
+233,13410182,781779100,,0,エイプでした。他のビット系は結構難しいですよね writing a as and Clinton-scorching of declinic is not the grills driaはついに強く強くない:レビュー 0.5 ard http,0.0
+234,817381,781777711,,0,Will Clinton need to lend her campaign more money [npr] | http://tinyurl.com/2tt5ak,0.0
+235,14287763,781772915,,0,Bill Clinton claims Hillary tried to join the Army.,0.0
+236,7663702,781771264,,0,Obama Trims Clinton's Lead in Pa.: Sen. Barack Obama received endorsements Wednesday from a labor unio.. http://tinyurl.com/ywr3dj,0.0
+237,7094562,781771259,,0,"New blog post: In Terms of Geography, Obama Appeals to Academics and Clinton ... - U.S. News & World Report http://tinyurl.com/398lly",0.0
+238,5741722,781771225,,0,Will Clinton Need to Loan Her Campaign More Money?: Presidential campaigns costs a lot of money. The .. http://tinyurl.com/2tt5ak,0.0
+239,2354291468,826943210069118978,,1,"Read a story recently that many rich ppl, some even N trump admin, R buying up cheap land N New Zealand 4 when the economy crashes! #tytlive",0.0
+240,89238980,826943209913905152,,0,"~@GetOnTRUMPTrain @FoxNews People are saying, #Trump wants to re-name Sec. of State to ""Oil Tsar."" Vladimir's idea?",0.0
+241,29635363,826943209720967168,,3,Trump is playing a hurry-up offense. He's the Chip Kelly of politics.,1.0
+242,16881249,826943208135520264,,0,"Foreign minister of UAE admits Trump's ""Muslim ban"" is NOT a Muslim ban. http://ln.is/ZYQ7o  by #DrMichaelMcEvoy via @c0nvey",0.0
+243,1584017948,826943207787347969,,0,"McAuliffe: Trump travel ban has 'chilling effect' on business, says state lost two companies http://www.bizjournals.com/washington/news/2017/02/01/mcauliffe-trump-travel-ban-has-chilling-effect-on.html … via @WBJonline",0.0
+244,729399108750999553,826943207455997952,,0,pero el póster no te da la brasa con Trump ni le echa bilis a Podemos sin parar,0.0
+245,38701090,826943207263059969,,0,"Welcome to the world of Bannon, Trump, and Kellyanne Conway. pic.twitter.com/hQufOHxDlZ",0.0
+246,912715434,826943206537490433,,0,"Thank you! #JohnLewis said that after that classified mtg, found out what Comey did & other info, Trump knows what's up too.",0.0
+247,80664786,826943206470283264,,0,It's about time!->REPORT: Trump Moves To Reduce Welfare Spending For Future Immigrants http://cjpearson.org/topics/opinions/trump-draft-order-would-kick-out-welfare-dependent-immigrants …,0.0
+248,61805709,826943205677613057,,0,"""Trump on Goodell: He's a Dope, a Stupid Guy"" via @BleacherReport App:http://bleacherreport.com/articles/2690661-donald-trump-rips-roger-goodell-talks-friendship-with-tom-brady-bill-belichick?utm_campaign=tsiphone&utm_medium=referral&utm_source=twitter.com …",0.0
+249,51981985,826943204654198784,,1,@UKTodayTopNews So unless Trump conforms to the Obama administration's policies and leaves all those people hired by Obama in,0.0
+250,823237993846730754,826943204285173760,,0,he is only ruining the NFL. TRump is ruining the US.,0.0
+251,107477035,826943204054462464,,0,this country will NOT be recognizable in 2018....we must act NOW to remove tRump and trash from office!,0.0
+252,535079024,826943204029247488,,0,"@_toastchee Lance crackers just cheated me out of a cracker and peanut butter, this is not making America Great Again! #f-Trump pic.twitter.com/QjrfXVSgQg",0.0
+253,1201819807,826943203752321024,,1,I've read members of the GOP are tied up with Trump in the #Russiagate. Trump is being blackmailed by Putin,0.0
+254,33850911,826943202934484993,,0,Do you really think Trump is a time traveler?,0.0
+255,793180974825738240,826943202460569600,,1,@MattAsherS @marcorubio Before he became a card-carrying member of the Party of Trump and was bought by big oil. #kleptocracy,2.0
+256,326613651,826943201961447424,,0,"""Fuckin' Trump."" Is the new ""Thanks Obama.""  #PressOn #resist",0.0
+257,14787158,826943201672036352,,0,They Lied: McConnell And Ryan Just Blocked Expanded Russia Probe To Shield Trump From Impeachment http://politicaldig.com/gop-leaders-just-blocked-expanded-russia-probe-order-shield-trump/ … via @POLITICAL DIG,0.0
+258,79117953,826943201646956544,,0,"""How Trump Has Taken Away Our Homes"" 
+By Masha Gessen and Martina Navratilova
+https://nyti.ms/2jU4Xct ",0.0
+259,177611653,737071019790368768,,0,you're probably right  I'm all up for moving there if Trump doesn't get in though! ,0.0
+260,625051954,737071014320951296,,0,girl I told you about got 200K from clinton foundation for her business,0.0
+261,3390467859,737071011749842945,,0,@jbarro is that enough for Trump to go after them?,0.0
+262,1279076126,737071009501708288,,2,Hillary Clinton: Hillary Clinton drop out of the 2016 Presidential Election - Sign the Petition! https://www.change.org/p/hillary-clinton-hillary-clinton-drop-out-of-the-2016-presidential-election?recruiter=539504870&utm_source=share_petition&utm_medium=twitter&utm_campaign=share_twitter_responsive … via @Change,0.0
+263,735982395665448965,737071008826294273,,0,Just when you thought it couldn't get worse! This thing shows up!@realBrodiFoxall: @realDonaldTrump I LOVE YOU TRUMP https://twitter.com/realBrodiFoxall/status/737068080954740737/photo/1pic.twitter.com/H3eaTEovHe ,0.0
+264,43752836,737071008314720256,,0,Trump's movement campaign likely to turn on the margins http://bigstory.ap.org/c8567b7516b64822a3867df45bd7d950 …,0.0
+265,301781798,737071004451766272,,0,Clinton's White House chances are dwindling. Here's why that's a market negative http://a.msn.com/00/en-us/BBtCqsG?ocid=st …,0.0
+266,701511379052843008,737071003956850688,,0,If Bill Clinton hung out with this guy did he participate in underage sex? @DiamondandSilk@atensnut @kathleenwilleyhttps://twitter.com/charlesortel/status/737053301439660034 …,0.0
+267,3082053004,737070996960759808,,1,"That is, ""privacy"" does not trump access to public docs via Freedom of Information requests unless you're her",1.0
+268,27987027,737070994834087936,,1,Which Republicans have endorsed Donald Trump? http://fb.me/2gyxXtgyB ,1.0
+269,709778631543787520,737070993219457026,,0,The Clinton investigation enters a dangerous phase | Fox News |  http://fxn.ws/1UDVE05 ,0.0
+270,3383800880,737070988374876161,,3,What if our hatred and disapproval of trump and Hilary provoke the two to marry and become the dynamic duo of president and first lady,0.0
+271,3147686386,737070985871032320,,3,"I think ""loose cannon"" is a terrible adjective for Trump!  Everyone should adopt ""Stupid Trump""",0.0
+272,2775904743,737070982637060097,,5,"""Bill Clinton Was Here"": The Elite One-Percent’s 'Orgy Island' Exposed http://www.zerohedge.com/news/2016-05-29/bill-clinton-was-here-elite-one-percent%E2%80%99s-orgy-island-exposed … #Hillary #Trump #Bernie",10.0
+273,14933230,737070978140884992,,0,Trump champions vets at Rolling Thunder rally at Lincoln Memorial | Fox News | http://fxn.ws/1U5KWd1 ,0.0
+274,2596920348,737070976249167872,,0,"Donald Trump reaches 1,237 delegate, what now http://eyeonamericanews.com/2016/05/29/donald-trump-reaches-1237-delegate-what-now …pic.twitter.com/LLIECsqxPK",0.0
+275,23152434,737070973883691008,,0,A 22-year-old 'molded' to vote for Hillary Clinton explains why he and his wife are supporting Trump http://goo.gl/fb/MUYQP7  #RT #BI,0.0
+276,176946287,737070973707517952,,1,let's hope Americans wake up and realise what a dangerous idiot Donald trump is,1.0
+277,44385059,737070969844424704,,0,"Donald Trump reaches 1,237 delegate, what now http://eyeonamericanews.com/2016/05/29/donald-trump-reaches-1237-delegate-what-now …pic.twitter.com/S6NV6C4fgR",0.0
+278,35132551,737070968712003585,,8,The truth. AMAZING how hard these ppl r fighting against us really...Makes me want Trump even more.,7.0
+279,2882776041,646836437703331845,,0,Check out my next UMGO match. Donald Trump vs Jordan bel http://www.umggaming.com/matches/L-4132464 … via @UMGOnline,0.0
+280,2405414238,646836434859495426,,0,DONALD TRUMP KEPT SHOWING UP IN THE DOCUMENTARY WE WATCHED AND I GASPED REALLY LOUD EVERY TIME,0.0
+281,940000238,646836432678445056,,0,The New Bond Market: Algorithms Trump Humans  http://bit.ly/1xzKf6v ,0.0
+282,159015598,646836431055269888,,0,Footage of Trump and Megyn Kelly meeting while Fox News reps look on in horror. Guess they should've seen it coming. https://www.youtube.com/watch?v=o1Izq-E3o7Y …,0.0
+283,300010526,646836429646131200,,0,"@realDonaldTrump I admire what you stand for, you don't bow down to anyone..Straight shooter and no BS! I'm on team TRUMP 100%...",0.0
+284,89074788,646836428018597888,,0,Donald Trump says Hillary Clinton was 'all in!' in starting birther movement. False. http://ow.ly/SAQNd  http://fb.me/3lnZWVuPp ,0.0
+285,2257092500,646836426626039808,,0,"The line have been drawn
+The powers that be must get rid of TRUMP
+Or face there own doom by him
+This will be exciting pic.twitter.com/6NrK72m3VW",0.0
+286,2364000800,646836417671360512,,0,Diseñan traje “sexy” de Donald Trump http://ift.tt/1FZrVTD ,0.0
+287,3311054952,646836411035856901,,0,@CNNPolitics @ericbradner @realDonaldTrump : Looking at pic of CNN's debate lineup is funny. Sticking Bush next to Trump w/all those low #'s,0.0
+288,183960617,646836405411414016,,0,"@AbareDavey @iamcolinquinn Btw, telling CQ to keep his trap shut is like telling Donald Trump to say something smart. Ain't gonna happen.",0.0
+289,29016548,646836404304093184,,1,Donald Trump Is Saving Our Democracy http://nymag.com/daily/intelligencer/2015/09/frank-rich-in-praise-of-donald-trump.html?mid=twitter-share-di … via @intelligencer,1.0
+290,2696379674,646836404262072320,,0,"@AnimalRightsJen A vision of @FBI guy with Clinton email. ""Why this on my desk. Is a load of crap. Searching 10Million emails for anything?""",0.0
+291,438079865,646836396871692289,,0,Donald Trump Calls The Pharma Bro ‘Disgusting’ And ‘A Spoiled Brat’ http://thkpr.gs/3704948  via @thinkprogress,0.0
+292,49443527,646836394699022336,,0,"The New Bond Market: Algorithms Trump Humans: Computerized trading strategies, or algor... http://on.wsj.com/1LxuzpV  http://Pivotfarm.com ",0.0
+293,25217504,646836387950407680,,0,#DonaldTrump has 31.5% & this is the headline: Marco Rubio passes Jeb Bush in Florida poll; Hillary Clinton weak http://postonpolitics.blog.palmbeachpost.com/2015/09/23/marco-rubio-passes-jeb-bush-in-florida-poll-hillary-clinton-weak/ …,0.0
+294,48822382,646836384183881728,,0,WSJ - The New Bond Market: Algorithms Trump Humans http://on.wsj.com/1PuFbVD  #finance,0.0
+295,463371329,646836383697510400,,0,@rpoolguy11 @JoeNBC @dlawdovski  Wrong again. It was Clinton Administration that changed reporting in 1994 http://www.bls.gov/opub/mlr/1995/10/art3full.pdf …,0.0
+296,24998706,646836379175940096,,0,Watch Donald Trump and Stephen Colbert Play ‘Who Said It?’ http://goo.gl/q5uJiw ,0.0
+297,136101639,646836362570821636,,0,Trump on immigration. Heavy on substance.https://www.donaldjtrump.com/images/uploads/Immigration-Reform-Trump.pdf … We would be lucky to have him as President. # Save our Country,0.0
+298,350599382,646836353636900864,,0,FBI recovers deleted emails from Hillary Clinton’s private email server: report http://pinterest.com/pin/115475177923483561/ …,0.0
+299,39118718,1006687592220246017,,0,"To those who think #RobertDeNiro should respect Trump more, explain this: ""a very Low IQ individual, has received to many shots to the head by real boxers in movies"".
+Respect goes both ways. Wanna bet DeNiro will use ""punch drunk"" to explain the deal with Kim after this comment?",0.0
+300,2925978011,1006687591893225474,,0,"Trump warns CNN's Jim Acosta to 'be nice'
+https://www.cnn.com/videos/politics/2018/06/12/trump-kim-summit-acosta-news-conference-sot.cnn …",0.0
+301,2803623931,1006687591217811456,,0,"In HUGE Win for Trump, Xi Jinping Pulls Missiles from South China Sea Following Successful North Korea Summit https://www.thegatewaypundit.com/2018/06/in-huge-win-for-trump-xi-jinping-pulls-missiles-from-south-china-sea-following-successful-north-korea-summit/ … via @gatewaypundit",0.0
+302,948264511420665858,1006687590064578560,,0,"Trump is like a God...
+to a scientologist,
+I have to assume
+
+ #haiku #ImpeachTrump #Trump #TrumpKimSummit",0.0
+303,4244457140,1006687589951102976,,3,#MAGA #Trump #KAG #Qanon #VoteRed #Veteran #Military #Trump2020 @10thAmendment @SheriffClarkehttps://twitter.com/realDonaldTrump/status/1006681862301933568 …,1.0
+304,82699347,1006687589779365888,,1,"Are these Dems and leftists 
+so terrified that they've lost their sense of normalcy? Listen to them rant all day long, they don't know what to do next to explain how Trump got so lucky all of a 
+sudden. ""what are we gonna tell our children""""how did we lose our PARTY""? 
+OMG!",0.0
+305,931311528191590400,1006687589754077184,,0,"#MAGA #Trump #PresidentTrump
+#TrumpRussia #FakePresident #PutinsPuppet #DrainTheDeepStatepic.twitter.com/iJpbUjynxL",0.0
+306,4855679640,1006687589124853760,,2,COMPARING Trump to Lincoln https://www.lifezette.com/popzette/upcoming-documentary-dinesh-dsouza-compares-trump-to-lincoln/ …,1.0
+307,41886062,1006687588781101057,,0,"And Trump a ""good"" third, after Putin!",0.0
+308,796986143506137088,1006687588227403781,,0,"Trump allowed our flag to be dishonored, fawned over a ruthless, deadly dictator, made a pitch for building hotels on the North Korean beaches, elevated a thug to an equal of the U.S. President, cancelled regular military training exercises. In return, he got “We’ll talk later.”",0.0
+309,543048639,1006687587187286017,,0,The Guardian view on Trump in Singapore: a huge win – for North Korea | Editorial https://www.theguardian.com/commentisfree/2018/jun/12/the-guardian-view-on-trump-in-singapore-a-huge-win-for-north-korea?CMP=share_btn_tw …,0.0
+310,780400202,1006687587153661953,,0,"Really Mike? Pompeo tries to limit G7 fallout from his asshole boss. Mike, here is a message for WH... F**k Trump! F**k Trump! F**k Trump
+And by the way...fire your toxic trade stooge & embarrassment Navarro!
+#FUCKTRUMP
+#FireNavarro
+#Resist
+https://www.msn.com/en-us/news/politics/pompeo-says-us-relationship-with-g-7-still-strong-despite-public-fight/ar-AAyvj7K …",0.0
+311,1505622860,1006687586692288512,,5,Kim ile Trump bile bir araya geldi bir biz gelemedik. pic.twitter.com/9wFleixX2V,0.0
+312,991095906924556289,1006687586683719680,,0,"@ATT, you said if you gave money to Trump he would have to approve your buyout of Time Warner. Trump said he would approve the buyout if you made CNN stop attacking him once you own it. I bet that now that you own it you will make CNN a FOX2 station!!",0.0
+313,977197762667270145,1006687586436505600,,0,"In surprise summit concession, Trump says he will halt Korea war games https://newsintoday.net/in-surprise-summit-concession-trump-says-he-will-halt-korea-war-games-2/ …",0.0
+314,887030672,1006687585744375809,,0,Well who do you think Trump is Hitler. ...,0.0
+315,3157743296,1006687585002024961,,3,"Because of that trader, I pray for Us.. Trump and our military Personnel. God Bless America",1.0
+316,60931748,1006687584268050433,,0,"This smug, progressive apologist really showed her true colors on election night with her biased anti-Trump rhetoric. Like all MSM Trump haters, NW is still totally clueless!",0.0
+317,2286129811,1006687583555014656,,0,"And the @GOP has allowed #conman tRump to lower the bar of the WH. #crooked tRump would rather deal with NK and Russia than American democrats or American allies.
+Talk to FBI Rubio, get NRA out of politics 
+No one wants to take away gun rights! https://twitter.com/marcorubio/status/1006535798689353728 …",0.0
+318,726163675229261825,1006687582971973632,,0,Norwegian prime minister: US economy is losing global influence under Trump http://hill.cm/P9pnsHb ,0.0
+319,21083903,916815400092028929,,0,"Top story: Trump on North Korea: 'Only one thing will work' - CNNPolitics http://www.cnn.com/2017/10/07/politics/trump-north-korea-negotiations-tweet …, see more http://tweetedtimes.com/jmussuto?s=tnp ",0.0
+320,2718027954,916815399043334144,,1,Apparently so was Trump.,0.0
+321,170187690,916815398619668481,,1,Trump is safe. “The Frigging Moron” is Chaos Personnified. Putins’ Goal In US is Confusion. The Murders Are Simply Housekeeping.,0.0
+322,774798731937914881,916815398078701569,,1,And in this corner it's the  with an IQ of 17. In this corner are some of the brightest minds we have. Trump's fucked,1.0
+323,4025272731,916815397931900928,,0,We all gonna die in the hands of trump,0.0
+324,794952343,916815396921102337,,0,"Never have, never will. I refer to him as trump, and always use lower case when typing.",0.0
+325,2888574341,916815395968995329,,0,Trump is demented and we should all be united in getting him out of office. That would be patriotic!,0.0
+326,732504236626345984,916815389434302466,,0,Trump is going to keep it up with the wall until there's A FUCKING  border war with Mexico spell the fucking coffee Congress!!!!,0.0
+327,1887375954,916815387089690630,,17,Ivanka Trump throws Twitter tantrum as Congressman tries to get her security clearance revoked http://www.palmerreport.com/politics/ivanka-tantrum-security-clearance/5373/ … via @PalmerReport,20.0
+328,99443871,916815384157634560,,1,When dating do you bluntly ask their political party? It would cause concern about what kind of man would support Trump.,0.0
+329,88265489,916815384073957376,,0,"Trump is the determining factor, and you can keep score by counting those standing behind him...worse, those passing his agenda.",0.0
+330,490566701,916815382849212417,,1,BULLSH**!! It is part of the Pence agenda to push women back to 1950! Trump LOVES birth control! pic.twitter.com/u9F7OUuoYo,0.0
+331,2602596980,916815377497280512,,0,"Let's face it, we got fucked in the Alternate Universe Sweepstakes. In 1 out of 4,000,000 Multiverses did Trump... http://fb.me/8kKFlmlCE ",0.0
+332,877356970688118784,916815377186799617,,0,"I wouldn't be surprised if Trump wins another 4 years, need self-induced coma, wake me up in 2024. https://www.google.com/amp/www.chicagotribune.com/news/opinion/commentary/ct-trump-election-2020-win-20171007-story,amp.html …",0.0
+333,19078560,916815376666759168,,0,"Trump Ominously Tweets ‘Only One Thing Will Work’ With North Korea
+
+Trump’s only  way out is to start a war.  http://www.huffingtonpost.com/entry/trump-north-korea-only-one-thing-will-work_us_59d939fde4b046f5ad98a952?div …",0.0
+334,85140992,916815376473837568,,0,"Is this surprising?
+Trump vented to Tillerson about law barring US companies from bribing foreign officials: report http://thehill.com/homenews/administration/354344-trump-vented-to-tillerson-about-law-barring-us-companies-from-bribing …",0.0
+335,824517696179953664,916815376327028736,,0,.@PLAmericaNews does not support @PPAct | The Trump administration is coming for women's health and bodies http://zpr.io/n6rVy ,0.0
+336,125299040,916815375567933441,,0,"Top story: Trump says open to temporary healthcare reform deal with Democrats |… http://www.reuters.com/article/us-usa-healthcare-trump-deal/trump-says-would-be-open-to-temporary-healthcare-reform-deal-idUSKBN1CC0S9 …, see more http://tweetedtimes.com/sindikaria?s=tnp …",0.0
+337,43477325,916815373957160960,,0,Trump makes me want to vomit. Who teaches these guys that it's ok to totally disregard women as humans in *locker room* disrespect. https://twitter.com/riotwomennn/status/916813195544858624 …,0.0
+338,4547407993,916815372518514688,,0,Trump on North Korea: 'Only one thing will work' - CNNPolitics http://www.cnn.com/2017/10/07/politics/trump-north-korea-negotiations-tweet/index.html … #SmartNews,0.0
+339,17458555,467092019400413184,,0,@SamSmithChi very true! I'd put Kingdom over identity b/c out of Kingdom we get our identity. Your right..has to trump DNA. Good stuff,0.0
+340,601289712,467091899933663232,,1,"@aidan_clinton @WillRock2424 Exactly , if were in a rebuilding phase then we should let Wig build with us",0.0
+341,79094653,467091876097429504,,0,Why Do Young People Support Hillary Clinton? Rush Limbaugh Has a Theory That They Are Bound to Take Issue With http://www.theblaze.com/stories/2014/05/15/why-do-young-people-support-hillary-clinton-rush-limbaugh-has-a-theory-that-they-are-bound-to-take-issue-with/ …,0.0
+342,810567276,467091832384811009,,0,4 - BYBEE CLINTON (0001219043) (Reporting) http://ift.tt/1lFoRnp ,0.0
+343,49308118,467091809898741760,,0,Clinton Giles just got up...Lawd!,0.0
+344,2414125807,467091739032166400,,0,"Trump plans £120m ‘tweak’ for Turnberry http://ift.tt/1mxxh1d  Published May 16, 2014 at 01:01AM",0.0
+345,2203277712,467091609390043136,,0,More than half of Americans approve of Hillary Clinton http://news.msn.com/us/more-than-half-of-americans-approve-of-hillary-clinton#tscptmt …,0.0
+346,89252763,467091558269870080,,0,Tonight's game between the Clinton LumberKings and the Beloit Snappers has been postponed due to rain. They will... http://fb.me/1iYTeMgiu ,0.0
+347,1027293296,467091508282531840,,0,"@Clint_lfc Hey Clinton, yep!",0.0
+348,547969112,467091435075158016,,11,. #Remember  – $6 Billion Dollars Goes Missing Under Hillary Clinton’s Watch http://bit.ly/1jNHqGo  #Fiscal #OnlyInDCpic.twitter.com/QlYOXNnUgE,31.0
+349,836001390,467091412731719680,,0,This is happening July 25th 2014 at the Clinton Arena need tickets message me.:) #fun #party #gottickets http://instagram.com/p/oCWclqhxCs/ ,0.0
+350,267906851,467091411012440064,,2,"I'm staying at the trump plaza tomorrow night, I hope the rooms are nice ",1.0
+351,197233187,467091303374028800,,0,"@gl33p The combination of Clinton, computerized voice, cursor tracking, and lyrics, is pretty special.",0.0
+352,783654108,467091195756171264,,1,When I watch What Not to Wear when the friends who nominated the person I always wonder if Stacy and Clinton judge there clothes/style. ,0.0
+353,2336930774,467091127753920512,,0,PJTV -- Young Hillary Clinton Supporters Struggle to Name Her Achievements: http://youtu.be/Aw8WIia47WE  via @YouTube,0.0
+354,28009377,467091119759564801,,3,"Ohio General Election Quinnipiac:
+ Clinton 46, Christie 38
+ Clinton 49, Paul 41
+ Clinton 48, Bush 39
+ Clinton 49, Huckabee 41",6.0
+355,368822209,467091088130326528,,0,"Clinton Young being a good kick is a myth. Have watched him closely his whole career, he is an avg kick at best, albeit a nice looking kick.",0.0
+356,1297311,467091057705234432,,0,Cristina la Hillary Clinton de Sud América. Ranking de presidentes HOT ¿? http://www.youtube.com/watch?v=bUVFBfLQStI …,0.0
+357,28302031,467091031994167296,,0,Bill Clinton RT @BuzzFeedAndrew: Who buys a Playboy in the Barnes and Noble check out line? https://twitter.com/BuzzFeedAndrew/status/467090932844986368/photo/1pic.twitter.com/W9Koy5E1r6 ,0.0
+358,1087133852,467090969788039168,,1,@Abby2194 Wait are you making fun of my dream. The last text Hillary Clinton sent.,1.0
+359,864511495,1096559782872268800,,0,The haters when #Trump tweets about anything  pic.twitter.com/O6rY0skww6,0.0
+360,571421714,1096559781983076353,,0,"No you would have to be a millionaire, then you don’t have to pay taxes, that’s what trump said!",0.0
+361,1039247912935612419,1096559781509251072,,0,"Trump chose Elliott Abrams to run U.S. policy toward a Latin Am. country where he previously engineered coups, broke U.S. laws, and encouraged right-wing political violence in the name of anti-communism. Barr helped Abrams get a pardon for Iran-Contra. https://thinkprogress.org/elliott-abrams-ilham-omar-pardon-william-barr-attorney-general-iran-contra-venezuela-5cbca426a978/ …",0.0
+362,21802523,1096559781223981056,,3,The analysis isn’t valid as Trump’s hold on the GOP should be compared more to that of a cult leader than a politician: that is the dedication of his base. His words are almost irrelevant to the Cult of Trump as long as he is “owning the Libs”,1.0
+363,1051897441790746625,1096559780573802496,,0,"Declare a national emergency on Trump and get rid of him, before he kills us All https://twitter.com/HRC/status/1096447736738693121 …",0.0
+364,761773414214463488,1096559780032856064,,1,yes even tho all of this is on videos or his tweets i dont care abt facts.yall literally ignore facts bc u dont wanna admit trump is racist and u support a racist.if u actually care abt trump being racist maybe go educate urself instead offlooding my mentions trying to defend him,0.0
+365,118850905,1096559778892038149,,3,"To pass the ACA, the law was followed. The constitution was respected. Having an issue with the process is different than disrespecting precedent, the constitution like Trump and his Mexico will pay for the wall.",0.0
+366,4429832433,1096559778736726016,,1,I don't Advocate not even one Dimond Kratts. However. Thousands of years ago it said the wall that Donald Trump will build will be torn down because it's wrong. So which one of you want to be walled into a prison?? I think you should wake up before it's too late https://twitter.com/DonaldJTrumpJr/status/1096510248435609600 …,0.0
+367,17258301,1096559777625255936,,7,"So why do we even have a Congress if a deranged wannabe dictator can just declare a “National Emergency” and do whatever he wants?
+This abuse of power must result in trump being removed.",4.0
+368,991774226641227776,1096559777008762880,,0,"Fact-checking Trump's speech declaring a national emergency
+
+https://www.cnn.com/2019/02/15/politics/fact-check-trump-national-emergency-immigration-speech/index.html …  .@realDonaldTrump .@POTUS #TrumpFakeEmergency #TrumpLiesEverytimeHeSpeaks #FactsMatter",0.0
+369,21547447,1096559776463491072,,0,Ann Coulter vs Trump pic.twitter.com/pxX5Gtgk9z,0.0
+370,803006532971589633,1096559775347818496,,1,Trump is declaring a national emergency so he can pay Abramovich what he owes him. https://twitter.com/JuddLegum/status/1096496098322116609 …,0.0
+371,1254388770,1096559774806757376,,0,"Obama got elected fair and square.  It was overwhelming.  The cesspool of racism and is emboldened by Trump, but (as bad as it is) is WAY overblown...  The VAST majority of Americans are good people.  In states that were anywhere near marginal - #RussiaHackedTheVotingMachines!",0.0
+372,5478102,1096559774316093443,,0,Trump has certainly done more right than wrong but Reagan’s title of greatest POTUS ever is still in place.,0.0
+373,17382639,1096559773967966209,,2,Wow!  @realDonaldTrump President Trump has the Demo-Rats all ballistic. He has officially driven them crazy because he dares to defy the fools.  The Congress is a co-equal branch of Government.  They think they are his boss.  How wonderful. Welcome to America!,0.0
+374,847569342048817152,1096559772927553536,,0,"Aaron you idiot. When he says he doesn't know her he doesn't mean like you know me, he means they don't communicate. Trump even said in the next sentence the last time they spoke was about a year ago. You Liberals can be so literal when you want to and then so vague again later",0.0
+375,876589850,1096559772122402816,,0,Fact-checking Trump's speech declaring a national emergency to pay for border wall  https://www.nbcnews.com/politics/donald-trump/fact-checking-trump-s-speech-declaring-national-emergency-border-wall-n972116 …,0.0
+376,43621399,1096559772072071169,,2,This is a lie because after Trump spoke Jim talked to all of the Angel  Mom’s.  Do some research https://twitter.com/robjh1/status/1096486777802670082 …,2.0
+377,715291520937680896,1096559771677851649,,0,"The left controlls everything- media, academia, Hollywood, etc.  You actually believe that if Trump was corrupt and they had evidence they wouldn’t have sunk him before taking office?! They can’t even find Russia interference- lol- I mean w/ Trump. Definitely exists to the Left.",0.0
+378,27561632,1096559770008342533,,1,CBS leaves Trump for 'The Price is Right' ⁦@realDonaldTrump⁩ #FAKENationalEmergency #FakeTrumpEmergency #FakePresidenthttps://www.reddit.com/r/politics/comments/aqyyhe/cbs_leaves_trump_for_the_price_is_right/?st=JS6PSG25&sh=c4492d30 …,0.0
