@@ -4,6 +4,7 @@ import sys
 sys.stdin = open('동이름.txt', 'r')
 dong_list = []
 for _ in range(467):
+
     dong_list.append(input())
 
 

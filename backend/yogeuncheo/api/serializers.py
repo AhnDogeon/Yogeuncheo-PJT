@@ -10,7 +10,7 @@ class ApartmentSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Apartment
-        fields = ('id', 'name',"location")
+        fields = ('id', 'name', 'location')
 
     def get_location(self, obj):
         return obj.location.name

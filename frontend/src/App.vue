@@ -2,18 +2,28 @@
   <v-app id="app">
     <v-container class="container-box">
       <v-layout justify-end class="login-btn">
-        <v-dialog v-model="$store.state.authDialog">
-          <template v-slot:activator="{ on }">
-            <v-btn text v-on="on">
-              로그인
-            </v-btn>
-          </template>
-          <UserAuth style="width: 60%; margin: auto; height: 500px;"/>
-        </v-dialog>
+<!--        <v-dialog v-model="$store.state.authDialog">-->
+<!--          <template v-slot:activator="{ on }">-->
+<!--&lt;!&ndash;            <v-btn text v-on="on">&ndash;&gt;-->
+<!--&lt;!&ndash;              로그인&ndash;&gt;-->
+<!--&lt;!&ndash;            </v-btn>&ndash;&gt;-->
+<!--            <div v-if="access_token">-->
+<!--              <v-btn>로그아웃</v-btn>-->
+<!--            </div>-->
+<!--            <div v-else>-->
+<!--              <KakaoLogin-->
+<!--                api-key="cea5b8ae3384be46febd687ef54537dc"-->
+<!--                image="kakao_login_btn_small"-->
+<!--                :on-success=onSuccess-->
+<!--                :on-failure=onFailure-->
+<!--              />-->
+<!--            </div>-->
+<!--          </template>-->
+<!--        </v-dialog>-->
       </v-layout>
       <router-link :to="{name: 'home'}" style="text-decoration: none; color: black;">
-        <v-layout class="layout-box mt-10" justify-center>
-          <p style="margin-left: 7vw;">
+        <v-layout class="layout-box" justify-center>
+          <p style="margin-left: 8vw;">
             요 근 처
           </p>
           <img src="./assets/yo1.png" alt="yo1" class="yo-img1">
@@ -29,12 +39,24 @@
 </template>
 
 <script>
-  import UserAuth from "./components/pages/UserAuth";
   import router from './router';
+  import KakaoLogin from 'vue-kakao-login'
+
+  let onSuccess = (data) => {
+        console.log(data.access_token);
+        // console.log(this.access_token);
+        // this.access_token=data.access_token;
+        // console.log(this.access_token);
+        console.log("success")
+    }
+  let onFailure = (data) => {
+      console.log(data)
+      console.log("failure")
+  }
 
   export default {
         components: {
-            UserAuth
+            KakaoLogin
         },
         data: () => ({
             drawer: null,
@@ -45,6 +67,7 @@
                     path: "user-search"
                 },
             ],
+            access_token: '',
         }),
         computed: {
           userInfo() {
@@ -65,6 +88,8 @@
             logout() {
                 this.$store.commit('data/logout');
             },
+            onSuccess,
+            onFailure,
         }
     };
 </script>
@@ -73,16 +98,13 @@
     #app {
     background-color: #F2C766;
     font-family: 'Noto Sans KR', sans-serif;
-    /*배경 색깔 고민 중...*/
-    /*background-color: #6567A8;*/
   }
 
-  .login-btn {
-    }
 
   .layout-box {
     font-family: 'Black Han Sans', sans-serif;
     font-size: 5vw;
+    margin-top: ;
   }
 
   .yo-img1 {
