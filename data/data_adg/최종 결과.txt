@@ -1,4 +1,4 @@
-,address,gu,dong,mac_score,lot_score,burgerking_score,seveneleven_score,cu_score,gs25_score,starbucks_score,lottecinema_score,megabox_score,cgv_score,total_score,high_oil,oil,oil2,total,catch,percent,mac_count,lot_count,burgerking_count,seveneleven_count,cu_count,gs25_count,starbucks_count,lottecinema_count,megabox_count,cgv_count,total_count
+``````,address,gu,dong,mac_score,lot_score,burgerking_score,seveneleven_score,cu_score,gs25_score,starbucks_score,lottecinema_score,megabox_score,cgv_score,total_score,high_oil,oil,oil2,total,catch,percent,mac_count,lot_count,burgerking_count,seveneleven_count,cu_count,gs25_count,starbucks_count,lottecinema_count,megabox_count,cgv_count,total_count
 0,서울특별시,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0
 1,서울특별시 종로구,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0
 2,서울특별시 종로구 청운동,종로구,청운동,0.0,0.0,0.0,0.0,0.0,0.12,0.0,0.0,0.0,0.0,0.12,0.0,0.0,0.0,3690,3913,106.0,0,0,0,0,0,1,0,0,0,0,1

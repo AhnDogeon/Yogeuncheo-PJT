@@ -10,30 +10,30 @@
     <v-layout justify-center>
       <div>
         <v-sheet
-          class="mx-auto"
-          max-width="1200"
+            class="mx-auto"
+            max-width="76vw"
+            style="background-color: #F2C766;"
         >
           <v-slide-group
-            v-model="model"
-            class="pa-4"
-            :prev-icon="prevIcon ? 'mdi-minus' : undefined"
-            :next-icon="nextIcon ? 'mdi-plus' : undefined"
-            :show-arrows="showArrows"
+              v-model="model"
+              :prev-icon="prevIcon ? 'mdi-minus' : undefined"
+              :next-icon="nextIcon ? 'mdi-plus' : undefined"
+              :show-arrows="showArrows"
           >
             <v-slide-item
-              v-for="(item, n) in items"
-              :key="n"
-              v-slot:default="{ active, toggle }"
+                v-for="(item, n) in items"
+                :key="n"
+                v-slot:default="{ active, toggle }"
             >
-              <v-card
-                :color="active ? 'primary' : 'grey lighten-1'"
-                class="ma-4"
-                height="180"
-                width="145"
-                @click="onCardClick(n)"
-                :img="item.src"
+              <v-card flat
+                      color="#00ff0000"
+                      style="margin: 0 1vw;"
+                      width="9.5vw"
+                      @click="onCardClick(n)"
               >
-                <v-card-text class="card-description py-2">
+                <v-img :src="item.src" height="7.8vw">
+                </v-img>
+                <v-card-text class="card-description">
                   <v-layout class="description-title">
                     {{ item.description1 }}
                   </v-layout>
@@ -49,70 +49,70 @@
 </template>
 
 <script>
-export default {
-  data: () => ({
-    model: null,
-    showArrows: true,
-    items: [
-      {
-        src: require('../assets/동교동.jpg'),
-        description1: '동교동',
-        description2: '핫플레이스',
-      },
-      {
-        src: require('../assets/망원동.jpg'),
-        description1: '망원동',
-        description2: '분위기 좋은 카페',
-      },
-      {
-        src: require('../assets/성수동.png'),
-        description1: '성수동',
-        description2: '블루보틀',
-      },
-      {
-        src: require('../assets/신사동.jpg'),
-        description1: '신사동',
-        description2: '가로수길',
-      },
-      {
-        src: require('../assets/신사동1.jpg'),
-        description1: '신사동',
-        description2: '인싸들만 가는 카페',
-      },
-      {
-        src: require('../assets/역삼동.jpg'),
-        description1: '역삼동',
-        description2: '트리하우스',
+    export default {
+        data: () => ({
+            model: null,
+            showArrows: true,
+            items: [
+                {
+                    src: require('../assets/동교동.jpg'),
+                    description1: '동교동',
+                    description2: '핫플레이스',
+                },
+                {
+                    src: require('../assets/망원동.jpg'),
+                    description1: '망원동',
+                    description2: '분위기 좋은 카페',
+                },
+                {
+                    src: require('../assets/성수동.png'),
+                    description1: '성수동',
+                    description2: '블루보틀',
+                },
+                {
+                    src: require('../assets/신사동.jpg'),
+                    description1: '신사동',
+                    description2: '가로수길',
+                },
+                {
+                    src: require('../assets/신사동1.jpg'),
+                    description1: '신사동',
+                    description2: '인싸들만 가는 카페',
+                },
+                {
+                    src: require('../assets/역삼동.jpg'),
+                    description1: '역삼동',
+                    description2: '트리하우스',
 
-      },
-      {
-        src: require('../assets/연남동.png'),
-        description1: '연남동',
-        description2: '연트럴파크',
-      },
-      {
-        src: require('../assets/을지로.jpg'),
-        description1: '을지로',
-        description2: '힙한 카페',
-      },
-      {
-        src: require('../assets/이태원.jpg'),
-        description1: '이태원',
-        description2: '야경이 좋은 곳',
-      },
-      {
-        src: require('../assets/익선동.jpg'),
-        description1: '익선동',
-        description2: '고즈넉한 한옥마을',
-      },
-    ]
-  }),
-  methods: {
-    onCardClick(n) {
-      this.n = n - 1;
-    }
-  }
-};
+                },
+                {
+                    src: require('../assets/연남동.png'),
+                    description1: '연남동',
+                    description2: '연트럴파크',
+                },
+                {
+                    src: require('../assets/을지로.jpg'),
+                    description1: '을지로',
+                    description2: '힙한 카페',
+                },
+                {
+                    src: require('../assets/이태원.jpg'),
+                    description1: '이태원',
+                    description2: '야경이 좋은 곳',
+                },
+                {
+                    src: require('../assets/익선동.jpg'),
+                    description1: '익선동',
+                    description2: '고즈넉한 한옥마을',
+                },
+            ]
+        }),
+        methods: {
+            onCardClick(n) {
+                this.n = n - 1;
+            }
+        }
+    };
 </script>
 
 <style>
@@ -133,20 +133,28 @@ export default {
     margin-bottom: 5vh;
   }
 
-  .pa-4 {
+
+  .v-slide-group {
     background-color: #F2C766;
   }
 
   .card-description {
     background: rgba(255, 255, 255, 0.8);
-    margin-top: 16.8vh;
     font-weight: 500;
     font-family: 'Noto Sans KR', sans-serif;
+    padding: 1.1vh 1vw;
+    font-size: 1vw;
   }
 
   .description-title {
     font-weight: 900;
     font-family: 'Noto Sans KR', sans-serif;
+    margin-bottom: 0.2vh;
   }
+
+  .v-slide-group__next, .v-slide-group__prev {
+    margin: auto !important;
+  }
+
 
 </style>

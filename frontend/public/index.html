@@ -12,6 +12,13 @@
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&display=swap&subset=korean" rel="stylesheet">
     <!--  icon  -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css">
+
+    <!--  카카오 지도  -->
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=cea5b8ae3384be46febd687ef54537dc"></script>
+    <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
     <noscript>
@@ -19,5 +26,16 @@
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+
   </body>
+
+  <style>
+      /* 전체 스크롤 투명하게 만들기 */
+    body {
+      box-sizing: border-box;
+    }
+    ::-webkit-scrollbar {
+    width: 0px;
+    }
+  </style>
 </html>

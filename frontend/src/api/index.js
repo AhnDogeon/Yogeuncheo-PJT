@@ -1,21 +1,22 @@
 import axios from 'axios'
 
-const apiUrl = '/api'
+const apiUrl = '/api';
 
 export default {
-  searchMovies(params) {
-    return axios.get(`${apiUrl}/movies/`, {
+  getScoreOfDong(params) {
+    return axios.get(`${apiUrl}/score/`, {
       params,
     })
   },
-  signup(profile) {
-        return axios.post(`${apiUrl}/auth/signup/`, {
-            profile
-        })
-    },
-    login(profile) {
-        return axios.post(`${apiUrl}/auth/login/`, {
-            profile
-        })
-    },
+
+  getListOfDong(params) {
+    return axios.get(`${apiUrl}/score/`, {
+      params,
+    })
+  },
+  getDong2(params) {
+    return axios.get(`${apiUrl}/score/`, {
+      params,
+    })
+  },
 }
