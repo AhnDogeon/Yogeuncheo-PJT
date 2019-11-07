@@ -1,7 +1,7 @@
 <template>
   <v-app id="app">
     <v-container class="container-box">
-      <v-layout justify-end class="login-btn">
+      <!--<v-layout justify-end class="login-btn">-->
 <!--        <v-dialog v-model="$store.state.authDialog">-->
 <!--          <template v-slot:activator="{ on }">-->
 <!--&lt;!&ndash;            <v-btn text v-on="on">&ndash;&gt;-->
@@ -20,9 +20,9 @@
 <!--            </div>-->
 <!--          </template>-->
 <!--        </v-dialog>-->
-      </v-layout>
+      <!--</v-layout>-->
       <router-link :to="{name: 'home'}" style="text-decoration: none; color: black;">
-        <v-layout class="layout-box" justify-center>
+        <v-layout class="layout-box" justify-center style="margin-top: 5vh;">
           <p style="margin-left: 8vw;">
             요 근 처
           </p>
@@ -96,7 +96,7 @@
 
 <style>
     #app {
-    background-color: #F2C766;
+    background-color: #f2c766;
     font-family: 'Noto Sans KR', sans-serif;
   }
 

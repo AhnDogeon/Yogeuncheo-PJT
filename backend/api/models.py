@@ -38,42 +38,16 @@ class TotalAddress(models.Model):
     cgv_count = models.IntegerField(default=0, blank=True, null=True)
     total_count = models.IntegerField(default=0, blank=True, null=True)
 
+    first = models.CharField(max_length=100, blank=True, null=True)
+    second = models.CharField(max_length=100, blank=True, null=True)
+    third = models.CharField(max_length=100, blank=True, null=True)
+
+    first_mapx = models.FloatField(default=0.0, blank=True, null=True)
+    first_mapy = models.FloatField(default=0.0, blank=True, null=True)
+    second_mapx = models.FloatField(default=0.0, blank=True, null=True)
+    second_mapy = models.FloatField(default=0.0, blank=True, null=True)
+    third_mapx = models.FloatField(default=0.0, blank=True, null=True)
+    third_mapy = models.FloatField(default=0.0, blank=True, null=True)
+
     def __str__(self):
         return "{}: {}".format(self.id, self.address)
-
-
-def create_data(**kwargs):
-    totaladd = TotalAddress.objects.create(
-        address=kwargs['address'],
-        gu=kwargs['gu'],
-        dong=kwargs['dong'],
-        mac_score=kwargs['mac_score'],
-        lot_score=kwargs['lot_score'],
-        burgerking_score=kwargs['burgerking_score'],
-        seveneleven_score=kwargs['seveneleven_score'],
-        cu_score=kwargs['cu_score'],
-        gs25_score=kwargs['gs25_score'],
-        starbucks_score=kwargs['starbucks_score'],
-        lottecinema_score=kwargs['lottecinema_score'],
-        megabox_score=kwargs['megabox_score'],
-        cgv_score=kwargs['cgv_score'],
-        total_score=kwargs['total_score'],
-        high_oil=kwargs['high_oil'],
-        oil=kwargs['oil'],
-        oil2=kwargs['oil2'],
-        total=kwargs['total'],
-        catch=kwargs['catch'],
-        percent=kwargs['percent'],
-        mac_count=kwargs['mac_count'],
-        lot_count=kwargs['lot_count'],
-        burgerking_count=kwargs['burgerking_count'],
-        seveneleven_count=kwargs['seveneleven_count'],
-        cu_count=kwargs['cu_count'],
-        gs25_count=kwargs['gs25_count'],
-        starbucks_count=kwargs['starbucks_count'],
-        lottecinema_count=kwargs['lottecinema_count'],
-        megabox_count=kwargs['megabox_count'],
-        cgv_count=kwargs['cgv_count'],
-        total_count=kwargs['total_count'],
-    )
-    return totaladd

@@ -16,7 +16,6 @@ def read_score(request):
         dong_name = request.GET.get('searchAddress', None)
         gu_name = request.GET.get('gu', None)
         dong2 = request.GET.get('dong2', None)
-        print(dong2)
 
         if dong_name:
             address = TotalAddress.objects.get(address=dong_name)

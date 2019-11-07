@@ -6,55 +6,65 @@ import json
 
 # Create your tests here.
 def create_data():
-    result = pd.read_csv('../data/data_adg/최종 결과.txt', sep=",", engine='python', encoding="utf-8")
+    result = pd.read_csv('../data/data_adg/last_data.txt', sep=",", encoding="utf-8")
+    # result = pd.DataFrame(result,columns=["result_id","address", "gu", "dong", "mac_score", "lot_score",
+    #                       "burgerking_score",'seveneleven_score', 'cu_score', 'gs25_score', 'starbucks_score', 'lottecinema_score',
+    #                       'megabox_score', 'cgv_score', 'total_score', 'high_oil', 'oil' 'oil2', 'total', 'catch', 'percent', 'mac_count',
+    #                       'lot_count', 'burgerking_count', 'seveneleven_count','cu_count', 'gs25_count','starbucks_count','lottecinema_count','megabox_count',
+    #                       'cgv_count', 'total_count','first','second', 'third'])
+    # print(result.loc[5])
+    # print(result.loc[5]['address'])
     for i in range(len(result.index)):
-        # data_id = result.loc[i][0]
-        # data = TotalAddress.objects.get(id=data_id)
-        # data.address = result.loc[i][1]
-        # data.gu = result.loc[i][2]
-        # data.dong = result.loc[i][3]
-        # data.mac_score = float(result.loc[i][4])
-        # data.lot_score = float(result.loc[i][5])
-        # data.burgerking_score = float(result.loc[i][6])
-        # data.seveneleven_score = float(result.loc[i][7])
-        # data.cu_score = float(result.loc[i][8])
-        # data.gs25_score = float(result.loc[i][9])
-        # data.starbucks_score = float(result.loc[i][10])
-        # data.lottecinema_score = float(result.loc[i][11])
-        # data.megabox_score = float(result.loc[i][12])
-        # data.cgv_score = float(result.loc[i][13])
-        # data.total_score = float(result.loc[i][14])
-        #
-        # data.high_oil = float(result.loc[i][15])
-        # data.oil = float(result.loc[i][16])
-        # data.oil2 = float(result.loc[i][17])
-        # data.total = int(result.loc[i][18])
-        # data.catch = int(result.loc[i][19])
-        # data.percent = float(result.loc[i][20])
-        #
-        # data.mac_count = int(result.loc[i][21])
-        # data.lot_count = int(result.loc[i][22])
-        # data.burgerking_count = int(result.loc[i][23])
-        # data.seveneleven_count = int(result.loc[i][24])
-        # data.cu_count = int(result.loc[i][25])
-        # data.gs25_count = int(result.loc[i][26])
-        # data.starbucks_count = int(result.loc[i][27])
-        # data.lottecinema_count = int(result.loc[i][28])
-        # data.megabox_count = int(result.loc[i][29])
-        # data.cgv_count = int(result.loc[i][30])
-        # data.total_count = int(result.loc[i][31])
+        print(result.loc[i]['address'])
+        a = TotalAddress(
+            address = result.loc[i]['address'],
+            gu = result.loc[i]['gu'],
+            dong = result.loc[i]['dong'],
+            mac_score = float(result.loc[i]['mac_score']),
+            lot_score = float(result.loc[i]['lot_score']),
+            burgerking_score = float(result.loc[i]['burgerking_score']),
+            seveneleven_score = float(result.loc[i]['seveneleven_score']),
+            cu_score = float(result.loc[i]['cu_score']),
+            gs25_score = float(result.loc[i]['gs25_score']),
+            starbucks_score = float(result.loc[i]['starbucks_score']),
+            lottecinema_score = float(result.loc[i]['lottecinema_score']),
+            megabox_score = float(result.loc[i]['megabox_score']),
+            cgv_score = float(result.loc[i]['cgv_score']),
+            total_score = float(result.loc[i]['total_score']),
 
-        # create_data(address=data.address, gu=data.gu, dong=data.dong, mac_score=data.mac_score, lot_score=data.lot_score,burgerking_score=data.burgerking_score,
-        #             seveneleven_score=data.seveneleven_score, cu_score=data.cu_score, gs25_score=data.gs25_score, starbucks_score=data.starbucks_score,
-        #             lottecinema_score=data.lottecinema_score, megabox_score=data.megabox_score, cgv_score=data.cgv_score, total_score=data.total_score,
-        #             high_oil=data.high_oil, oil=data.oil, oil2=data.oil2, total=data.total, catch=data.catch, percent=data.percent,
-        #             mac_count=data.mac_count, lot_count=data.lot_count, burgerking_count=data.burgerking_count,
-        #             seveneleven_count=data.seveneleven_count, cu_count=data.cu_count,gs25_count=data.gs25_count,
-        #             starbucks_count=data.starbucks_count,lottecinema_count=data.lottecinema_count,megabox_count=data.megabox_count,
-        #             cgv_count=data.cgv_count, total_count=data.total_count)
+            high_oil = float(result.loc[i]['high_oil']),
+            oil = float(result.loc[i]['oil']),
+            oil2 = float(result.loc[i]['oil2']),
+            total = int(result.loc[i]['total']),
+            catch = int(result.loc[i]['catch']),
+            percent = float(result.loc[i]['percent']),
+
+            mac_count = int(result.loc[i]['mac_count']),
+            lot_count = int(result.loc[i]['lot_count']),
+            burgerking_count = int(result.loc[i]['burgerking_count']),
+            seveneleven_count = int(result.loc[i]['seveneleven_count']),
+            cu_count = int(result.loc[i]['cu_count']),
+            gs25_count = int(result.loc[i]['gs25_count']),
+            starbucks_count = int(result.loc[i]['starbucks_count']),
+            lottecinema_count = int(result.loc[i]['lottecinema_count']),
+            megabox_count = int(result.loc[i]['megabox_count']),
+            cgv_count = int(result.loc[i]['cgv_count']),
+            total_count = int(result.loc[i]['total_count']),
+            first = result.loc[i]['first'],
+            second = result.loc[i]['second'],
+            third = result.loc[i]['third'],
+            first_mapx = result.loc[i]['first_mapx'],
+            first_mapy = result.loc[i]['first_mapy'],
+            second_mapx = result.loc[i]['second_mapx'],
+            second_mapy = result.loc[i]['second_mapy'],
+            third_mapx = result.loc[i]['third_mapx'],
+            third_mapy = result.loc[i]['third_mapy'],
+        )
         print(i, '/', len(result))
-        # data.save()
+        a.save()
     else:
         print("create data done")
+
+
 
 create_data()

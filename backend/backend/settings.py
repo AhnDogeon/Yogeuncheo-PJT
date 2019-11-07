@@ -31,11 +31,6 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
-<<<<<<< HEAD:backend/yogeuncheo/yogeuncheo/settings.py
-    'api',
-    # "rest_framework"
-=======
->>>>>>> 96049b245d1e979b0af141f3bb7c5022fb2ff78a:backend/backend/settings.py
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

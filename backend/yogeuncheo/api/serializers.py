@@ -1,5 +1,5 @@
 from .models import *
-# from rest_framework import serializers
+from rest_framework import serializers
 # @property
 # seen_movies_id = serializers.SerializerMethodField('get_movielist_id')
 

@@ -14,47 +14,39 @@
       <v-container>
         <v-row dense>
           <v-col>
-            <v-row class="info1">
+            <v-row class="info1 col-12">
               <span class="info-title">편의지수</span>
               <img src="../assets/store.png" alt="store" class="info-img">
-              <div class="center">
-                <span class="qs">? <span class="popover above" style="left: -3vw;">편의지수는 각 동의 프랜차이즈, 편의점, 영화관의 매장 수에 자체 알고리즘을 적용해 환산한 점수입니다. <p style="color: #dc3240">매달 업데이트 됩니다.</p></span></span>
-              </div>
+              <span class="qs">? <span class="popover above" style="left: -3vw;">편의지수는 각 동의 프랜차이즈, 편의점, 영화관의 매장 수에 자체 알고리즘을 적용해 환산한 점수입니다. <p style="color: #dc3240">매달 업데이트 됩니다.</p></span></span>
             </v-row>
-            <p style="font-size: 1.3vw; font-family: 'Noto Sans KR', sans-serif; font-weight: 600; margin-top: 2vw; margin-left: 3vw;">
+            <p class="col-12" style="font-size: 1.3vw; font-family: 'Noto Sans KR', sans-serif; font-weight: 600; margin-top: 2vw; margin-left: 3vw;">
               {{oneDong.total_score}}점</p>
           </v-col>
           <v-col>
-            <v-row class="info1">
+            <v-row class="info1 col-12">
               <span class="info-title">유가지수</span>
               <img src="../assets/gas.png" alt="gas" class="info-img">
-              <div class="center">
-                <span class="qs">? <span class="popover above" style="height: 6vw;">유가지수는 각 동 주유소의 고급휘발유, 휘발유, 경유의 평균 가격 입니다.  <p style="color: #dc3240">매주 업데이트 됩니다.</p></span></span>
-              </div>
+              <span class="qs">? <span class="popover above" style="height: 12vh;">유가지수는 각 동 주유소의 고급휘발유, 휘발유, 경유의 평균 가격 입니다.  <p style="color: #dc3240">매주 업데이트 됩니다.</p></span></span>
             </v-row>
             <v-row style="margin-left: 1vw; margin-top: 1vw; font-size: 1.1vw;">
-              <p>고급 휘발유 : {{oneDong.high_oil}}원</p>
-              <p>휘발유 : {{oneDong.oil}}원</p>
-              <p>경유 : {{oneDong.oil2}}원</p>
+              <p class="col-12">고급 휘발유 : {{oneDong.high_oil}}원</p>
+              <p class="col-12">휘발유 : {{oneDong.oil}}원</p>
+              <p class="col-12">경유 : {{oneDong.oil2}}원</p>
             </v-row>
 
           </v-col>
 
           <v-col>
-            <v-row class="info1">
+            <v-col class="info1 col-12">
               <span class="info-title">안전지수</span>
               <img src="../assets/police.jpg" alt="police" class="info-img">
-              <div class="center">
-                <span class="qs">? <span class="popover above" style="height: 6.5vw; left: -9vw;">안전지수는 각 동 범죄 발생건수, 검거건수를 바탕으로 검거율을 계산합니다.  <p style="color: #dc3240">매년 업데이트 됩니다.</p></span></span>
-              </div>
-            </v-row>
+              <span class="qs">? <span class="popover above" style="height: 12vh; left: -9vw;">안전지수는 각 동 범죄 발생건수, 검거건수를 바탕으로 검거율을 계산합니다.  <p style="color: #dc3240">매년 업데이트 됩니다.</p></span></span>
+            </v-col>
             <v-row style="margin-left: 1vw; margin-top: 1vw; font-size: 1vw;">
-              <p style="font-size: 1.3vw; font-weight: 600;">검거율 : {{oneDong.percent}}%</p>
-              <p>발생건수 : {{oneDong.total}}건</p>
-              <p>검거건수 : {{oneDong.catch}}건</p>
+              <p class="col-12" style="font-size: 1.3vw; font-weight: 600;">검거율 : {{oneDong.percent}}%</p>
+              <p class="col-12">발생건수 : {{oneDong.total}}건</p>
+              <p class="col-12">검거건수 : {{oneDong.catch}}건</p>
             </v-row>
-
-
           </v-col>
         </v-row>
       </v-container>
@@ -131,7 +123,7 @@
   .title2 {
     font-weight: 500;
     color: black;
-    font-size: 1.4vw;
+    font-size: 1.2vw;
   }
 
   .info1 {
@@ -140,8 +132,8 @@
   }
 
   .info-img {
-    width: 2.5vw;
-    height: 2.5vw;
+    width: 2.2vw;
+    height: 2.2vw;
   }
 
   .info-title {
@@ -160,13 +152,13 @@
     cursor: default;
     display: inline-block;
     font-family: 'Helvetica', sans-serif;
-    font-size: 1.1vw;
+    font-size: 1vw;
     font-weight: bold;
-    height: 1.4vw;
-    line-height: 1.4vw;
+    height: 1.2vw;
+    width: 1.2vw;
+    line-height: 1.2vw;
     position: relative;
     text-align: center;
-    width: 1.4vw;
     left: 0.4vw;
     top: 0.3vw;
   }
@@ -181,7 +173,7 @@
     padding: 0.4vw;
     position: absolute;
     width: 10vw;
-    height: 8vw;
+    height: 14vh;
     top: 2vw;
     z-index: 4;
   }

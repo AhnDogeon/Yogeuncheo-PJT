@@ -9,12 +9,19 @@
     </v-layout>
 
 
-    <v-layout class="search-form">
-      <v-text-field color="v-label" v-model="searchAddress" label="OO구 OO동을 검색해보세요" outlined/>
-      <v-btn text icon @click.stop="onSubmit">
+      <v-row class="justify-center" style="margin-top: 2vw;">
+        <v-col class="col-5" style="margin-left: 2.5vw;">
+          <v-text-field color="v-label" v-model="searchAddress" label="서울특별시 OO구 OO동을 정확히 입력하세요" @keypress.enter.prevent="onSubmit" outlined/>
+        </v-col>
+        <v-col class="col-1" style="margin-left: -2vw;">
+          <v-btn text icon @click.stop="onSubmit">
         <v-icon class="mdi">mdi-magnify</v-icon>
       </v-btn>
-    </v-layout>
+        </v-col>
+      </v-row>
+
+
+
     <ModalForm v-on:dialogClose="dialogClose" :dialogOpen="dialogOpen"></ModalForm>
   </v-form>
 </template>
@@ -65,7 +72,7 @@
   }
 
   .search-form {
-    width: 28vw;
+    width: 1vw;
     margin: 8vh auto 0;
   }
 
@@ -73,9 +80,8 @@
     font-size: 1vw !important;
   }
 
-  .v-input__slot {
-    width: 2vw !important;
-    height: 5vh !important;
+  .v-text-field {
+    font-size: 1.2vw !important;
   }
 
   .mdi {
