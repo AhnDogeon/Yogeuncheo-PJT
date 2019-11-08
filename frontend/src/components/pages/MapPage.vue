@@ -9,27 +9,28 @@
     </v-layout>
 
     <v-row class="seoul-maps" dense>
-
-      <v-col class="col-lg-6 col-12" id="map" style="width:38vw; height:38vw;"></v-col>
+      <v-col id="map" class="col-lg-6 col-12" style="width:38vw; height:38vw;" />
       <v-col class="col-lg-6 col-12">
         <v-row>
           <v-layout v-if="dong2_name">
             <div style="min-width: 30px;">
-              <v-select style="width: 80%; margin-left: 2vw;" v-model="selected_dong" :label="dong2_name"
-                        :items="dong_list" item-color="blue-grey lighten-5" outlined></v-select>
+              <v-select v-model="selected_dong" style="width: 80%; margin-left: 2vw;" :label="dong2_name"
+                        :items="dong_list" item-color="blue-grey lighten-5" outlined
+              />
             </div>
             <div>
-              <v-icon style=" margin-top: 1vw; font-size: 1.5vw;" @click="getScore">mdi-magnify
+              <v-icon style=" margin-top: 1vw; font-size: 1.5vw;" @click="getScore">
+                mdi-magnify
               </v-icon>
             </div>
           </v-layout>
-
-          <v-layout v-else="dong_origin">
+          <v-layout v-else-if="dong_origin">
             <div style="min-width: 30px;">
-              <v-select style="width: 80%; margin-left: 2vw;" v-model="dong_origin_name"
+              <v-select v-model="dong_origin_name" style="width: 80%; margin-left: 2vw;"
                         :label="dong_origin.gu"
-                        :items="dong_origin.dong" item-color="blue-grey lighten-5" outlined
-                        return-object></v-select>
+                        :items="[dong_origin.dong]" item-color="blue-grey lighten-5" outlined
+                        return-object
+              />
             </div>
             <div>
               <v-icon style="margin-left: 0.8vw; margin-top: 1vw; font-size: 1.5vw;" @click="getScore">
@@ -39,9 +40,14 @@
           </v-layout>
         </v-row>
         <v-row>
-          <div v-if="dong2.address"
-               style="font-family: 'Noto Sans KR', sans-serif; margin-left: 2vw; margin-top: -1vw;">
-            <p style="font-size: 1.5vw; font-weight: 700; color: #6567A8;">{{ dong2.address }}<span style="color: black;">의 정보 입니다.</span></p>
+          <div v-if="dong2.address !== ''"
+               style="font-family: 'Noto Sans KR', sans-serif; margin-left: 2vw; margin-top: -1vw;"
+          >
+            <p style="font-size: 1.5vw; font-weight: 700; color: #6567A8;">
+              {{ dong2.address }}<span
+                style="color: black;"
+              >의 정보 입니다.</span>
+            </p>
             <div style="font-size: 1.1vw; font-weight: 500; margin-left: 1vw;">
               <v-row style="font-size: 1.4vw; font-weight: 700; color: #a84a54;">추천 동네 : <span style="margin-left:1vw; color: black">{{ dong2.first }}, {{ dong2.second }}, {{ dong2.third }}</span></v-row>
               <v-row style="font-size: 1.6vw; font-bold: 700; margin-top: 1.5vw">
@@ -89,12 +95,14 @@
               </v-row>
             </div>
           </div>
-
-
-          <div v-else-if="dong_origin"
-               style="font-family: 'Noto Sans KR', sans-serif; margin-left: 2vw; margin-top: -1vw;">
-            <p style="font-size: 1.5vw; font-weight: 700; color: #6567A8;">{{ dong_origin.address }}<span
-                style="color: black;">의 정보 입니다.</span></p>
+          <div v-else
+               style="font-family: 'Noto Sans KR', sans-serif; margin-left: 2vw; margin-top: -1vw;"
+          >
+            <p style="font-size: 1.5vw; font-weight: 700; color: #6567A8;">
+              {{ dong_origin.address }}<span
+                style="color: black;"
+              >의 정보 입니다.</span>
+            </p>
             <div style="font-size: 1.1vw; font-weight: 500; margin-left: 1vw;">
               <v-row style="font-size: 1.4vw; font-weight: 700; color: #a84a54;">추천 동네 : <span style="margin-left:1vw; color: black">{{ dong_origin.first }}, {{ dong_origin.second }}, {{ dong_origin.third }}</span></v-row>
               <v-row style="font-size: 1.6vw; font-bold: 700; margin-top: 1.5vw">
@@ -145,10 +153,8 @@
         </v-row>
       </v-col>
     </v-row>
-    ​
   </v-content>
-</template>
-​
+</template>​
 <script>
     import seoul_coor from '../../assets/seoul';
     import {mapActions} from 'vuex';
@@ -171,10 +177,10 @@
                 };
                 await this.getListOfDong(params);
             },
+            // 검색 버튼 눌렀을 때
             async getScore() {
-
                 const params = {
-                    dong2: this.selected_dong,
+                    dong2: '서울특별시' + ' ' + this.dong2_name + ' ' + this.selected_dong,
                 };
                 await this.getDong2(params);
                 this.dong_origin_recommended = [];
@@ -182,6 +188,13 @@
                 this.dong_origin_recommended.push([this.$store.state.data.dong2.second, this.$store.state.data.dong2.second_mapx, this.$store.state.data.dong2.second_mapy]);
                 this.dong_origin_recommended.push([this.$store.state.data.dong2.third, this.$store.state.data.dong2.third_mapx, this.$store.state.data.dong2.third_mapy]);
                 this.loadKakaoMap();
+            },
+            async initScore() {
+                console.log("initScore");
+                const params = {dong2: {address: ""}};
+
+                console.log("search2 : " + this.$store.state.data.dong2.address);
+                this.$store.commit("data/initDong2", params.dong2);
             },
             loadKakaoMap() {
 
@@ -291,9 +304,9 @@
             dong_origin() {
                 this.dong_origin_name = this.$store.state.data.dong_info.dong;
 
-                this.dong_origin_recommended.push([this.$store.state.data.dong_info.first.split(' ')[2], this.$store.state.data.dong_info.first_mapx, this.$store.state.data.dong_info.first_mapy]);
-                this.dong_origin_recommended.push([this.$store.state.data.dong_info.second.split(' ')[2], this.$store.state.data.dong_info.second_mapx, this.$store.state.data.dong_info.second_mapy]);
-                this.dong_origin_recommended.push([this.$store.state.data.dong_info.third.split(' ')[2], this.$store.state.data.dong_info.third_mapx, this.$store.state.data.dong_info.third_mapy]);
+                this.dong_origin_recommended.push([this.$store.state.data.dong_info.first, this.$store.state.data.dong_info.first_mapx, this.$store.state.data.dong_info.first_mapy]);
+                this.dong_origin_recommended.push([this.$store.state.data.dong_info.second, this.$store.state.data.dong_info.second_mapx, this.$store.state.data.dong_info.second_mapy]);
+                this.dong_origin_recommended.push([this.$store.state.data.dong_info.third, this.$store.state.data.dong_info.third_mapx, this.$store.state.data.dong_info.third_mapy]);
                 return this.$store.state.data.dong_info
             }
         },
@@ -304,218 +317,218 @@
 </script>
 
 <style>
-  .seoul-maps {
-    margin-top: 2vw;
-  }
-
-  .main-description1 {
-    font-family: 'Noto Sans KR', sans-serif;
-    font-weight: 700;
-    font-size: 2vw;
-    margin-top: 2vh;
-    margin-left: 1vw;
-  }
-
-  .main-description2 {
-    color: #6567A8;
-    margin-left: 0.8vw;
-    margin-right: 0.5vw;
-  }
-
-  .v-label {
-    font-size: 1vw !important;
-  }
-
-  .v-select__selection {
-    font-size: 1.2vw !important;
-  }
-
-  /*wave 애니메이션 */
-  .waves1 {
-    position: absolute;
-    left: 20vw;
-    top: 28vh;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    background: rgba(255, 129, 109, 0.4);
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-  }
-
-  .waves1:before, .waves1:after {
-    content: "";
-    position: absolute;
-    background: #ff5456;
-    margin-left: -12px;
-    margin-top: -12px;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    -webkit-animation: wave1 3s infinite linear;
-    animation: wave1 3s infinite linear;
-  }
-
-  .waves1:after {
-    opacity: 0;
-    -webkit-animation: wave1 3s 1.5s infinite linear;
-    animation: wave1 3s 1.5s infinite linear;
-  }
-
-  @-webkit-keyframes wave1 {
-    0% {
-      -webkit-transform: scale(0);
-      transform: scale(0);
-      opacity: 1;
+    .seoul-maps {
+        margin-top: 2vw;
     }
-    100% {
-      -webkit-transform: scale(2);
-      transform: scale(2);
-      opacity: 0;
+
+    .main-description1 {
+        font-family: 'Noto Sans KR', sans-serif;
+        font-weight: 700;
+        font-size: 2vw;
+        margin-top: 2vh;
+        margin-left: 1vw;
     }
-  }
 
-
-  @keyframes wave1 {
-    0% {
-      -webkit-transform: scale(0);
-      transform: scale(0);
-      opacity: 1;
+    .main-description2 {
+        color: #6567A8;
+        margin-left: 0.8vw;
+        margin-right: 0.5vw;
     }
-    100% {
-      -webkit-transform: scale(2);
-      transform: scale(2);
-      opacity: 0;
+
+    .v-label {
+        font-size: 1vw !important;
     }
-  }
 
-  /*wave2 애니메이션 */
-  .waves2 {
-    position: absolute;
-    left: 12vw;
-    top: 50vh;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    background: rgba(35, 36, 255, 0.4);
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-  }
-
-  .waves2:before, .waves2:after {
-    content: "";
-    position: absolute;
-    background: #7fa7ff;
-    margin-left: -12px;
-    margin-top: -12px;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    -webkit-animation: wave2 3s infinite linear;
-    animation: wave2 3s infinite linear;
-  }
-
-  .waves2:after {
-    opacity: 0;
-    -webkit-animation: wave2 3s 1.5s infinite linear;
-    animation: wave2 3s 1.5s infinite linear;
-  }
-
-  @-webkit-keyframes wave2 {
-    0% {
-      -webkit-transform: scale(0);
-      transform: scale(0);
-      opacity: 1;
+    .v-select__selection {
+        font-size: 1.2vw !important;
     }
-    100% {
-      -webkit-transform: scale(2);
-      transform: scale(2);
-      opacity: 0;
+
+    /*wave 애니메이션 */
+    .waves1 {
+        position: absolute;
+        left: 20vw;
+        top: 28vh;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        background: rgba(255, 129, 109, 0.4);
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
     }
-  }
 
-
-  @keyframes wave2 {
-    0% {
-      -webkit-transform: scale(0);
-      transform: scale(0);
-      opacity: 1;
+    .waves1:before, .waves1:after {
+        content: "";
+        position: absolute;
+        background: #ff5456;
+        margin-left: -12px;
+        margin-top: -12px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        -webkit-animation: wave1 3s infinite linear;
+        animation: wave1 3s infinite linear;
     }
-    100% {
-      -webkit-transform: scale(2);
-      transform: scale(2);
-      opacity: 0;
+
+    .waves1:after {
+        opacity: 0;
+        -webkit-animation: wave1 3s 1.5s infinite linear;
+        animation: wave1 3s 1.5s infinite linear;
     }
-  }
 
-  /*wave3 애니메이션 */
-  .waves3 {
-    position: absolute;
-    left: 30vw;
-    top: 55vh;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    background: rgba(255, 226, 59, 0.4);
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-  }
-
-  .waves3:before, .waves3:after {
-    content: "";
-    position: absolute;
-    background: #ff983d;
-    margin-left: -12px;
-    margin-top: -12px;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    -webkit-animation: wave3 3s infinite linear;
-    animation: wave3 3s infinite linear;
-  }
-
-  .waves3:after {
-    opacity: 0;
-    -webkit-animation: wave3 3s 1.5s infinite linear;
-    animation: wave3 3s 1.5s infinite linear;
-  }
-
-
-  @-webkit-keyframes wave3 {
-    0% {
-      -webkit-transform: scale(0);
-      transform: scale(0);
-      opacity: 1;
+    @-webkit-keyframes wave1 {
+        0% {
+            -webkit-transform: scale(0);
+            transform: scale(0);
+            opacity: 1;
+        }
+        100% {
+            -webkit-transform: scale(2);
+            transform: scale(2);
+            opacity: 0;
+        }
     }
-    100% {
-      -webkit-transform: scale(2);
-      transform: scale(2);
-      opacity: 0;
-    }
-  }
 
 
-  @keyframes wave3 {
-    0% {
-      -webkit-transform: scale(0);
-      transform: scale(0);
-      opacity: 1;
+    @keyframes wave1 {
+        0% {
+            -webkit-transform: scale(0);
+            transform: scale(0);
+            opacity: 1;
+        }
+        100% {
+            -webkit-transform: scale(2);
+            transform: scale(2);
+            opacity: 0;
+        }
     }
-    100% {
-      -webkit-transform: scale(2);
-      transform: scale(2);
-      opacity: 0;
-    }
-  }
 
-  .area {
-    position: absolute;
-    background: #fff;
-    border: 1px solid #888;
-    border-radius: 3px;
-    font-size: 12px;
-    top: -5px;
-    left: 15px;
-    padding: 2px;
-  }
+    /*wave2 애니메이션 */
+    .waves2 {
+        position: absolute;
+        left: 12vw;
+        top: 50vh;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        background: rgba(35, 36, 255, 0.4);
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+    }
+
+    .waves2:before, .waves2:after {
+        content: "";
+        position: absolute;
+        background: #7fa7ff;
+        margin-left: -12px;
+        margin-top: -12px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        -webkit-animation: wave2 3s infinite linear;
+        animation: wave2 3s infinite linear;
+    }
+
+    .waves2:after {
+        opacity: 0;
+        -webkit-animation: wave2 3s 1.5s infinite linear;
+        animation: wave2 3s 1.5s infinite linear;
+    }
+
+    @-webkit-keyframes wave2 {
+        0% {
+            -webkit-transform: scale(0);
+            transform: scale(0);
+            opacity: 1;
+        }
+        100% {
+            -webkit-transform: scale(2);
+            transform: scale(2);
+            opacity: 0;
+        }
+    }
+
+
+    @keyframes wave2 {
+        0% {
+            -webkit-transform: scale(0);
+            transform: scale(0);
+            opacity: 1;
+        }
+        100% {
+            -webkit-transform: scale(2);
+            transform: scale(2);
+            opacity: 0;
+        }
+    }
+
+    /*wave3 애니메이션 */
+    .waves3 {
+        position: absolute;
+        left: 30vw;
+        top: 55vh;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        background: rgba(255, 226, 59, 0.4);
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+    }
+
+    .waves3:before, .waves3:after {
+        content: "";
+        position: absolute;
+        background: #ff983d;
+        margin-left: -12px;
+        margin-top: -12px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        -webkit-animation: wave3 3s infinite linear;
+        animation: wave3 3s infinite linear;
+    }
+
+    .waves3:after {
+        opacity: 0;
+        -webkit-animation: wave3 3s 1.5s infinite linear;
+        animation: wave3 3s 1.5s infinite linear;
+    }
+
+
+    @-webkit-keyframes wave3 {
+        0% {
+            -webkit-transform: scale(0);
+            transform: scale(0);
+            opacity: 1;
+        }
+        100% {
+            -webkit-transform: scale(2);
+            transform: scale(2);
+            opacity: 0;
+        }
+    }
+
+
+    @keyframes wave3 {
+        0% {
+            -webkit-transform: scale(0);
+            transform: scale(0);
+            opacity: 1;
+        }
+        100% {
+            -webkit-transform: scale(2);
+            transform: scale(2);
+            opacity: 0;
+        }
+    }
+
+    .area {
+        position: absolute;
+        background: #fff;
+        border: 1px solid #888;
+        border-radius: 3px;
+        font-size: 12px;
+        top: -5px;
+        left: 15px;
+        padding: 2px;
+    }
 </style>

@@ -5,15 +5,13 @@ const state = {
     // shape: [{ id, title, genres, viewCnt, rating }]
     dong_info: [],
     dong_list: [],
-    dong2: [],
-    userInfo: JSON.parse(localStorage.getItem('userInfo')),
+    dong2: { address : "" },
 };
 
 // actions
 const actions = {
     async getScoreOfDong({commit}, params) {
         const resp = await api.getScoreOfDong(params);
-        console.log(resp)
         commit('getScoreOfDongCommit', resp)
     },
 
@@ -38,6 +36,10 @@ const mutations = {
     getDong2Commit(state, payload) {
         state.dong2 = payload.data
     },
+    initDong2(state, dong2) {
+        state.dong2 = dong2
+    },
+
 };
 
 export default {

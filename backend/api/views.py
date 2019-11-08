@@ -16,6 +16,7 @@ def read_score(request):
         dong_name = request.GET.get('searchAddress', None)
         gu_name = request.GET.get('gu', None)
         dong2 = request.GET.get('dong2', None)
+        print(dong2)
 
         if dong_name:
             address = TotalAddress.objects.get(address=dong_name)
@@ -24,7 +25,7 @@ def read_score(request):
             return Response(data=serializer.data, status=status.HTTP_200_OK)
 
         elif dong2:
-            address = TotalAddress.objects.get(dong=dong2)
+            address = TotalAddress.objects.get(address=dong2)
             # 파이썬과 vue 언어를 변환시켜주는 거
             serializer = AddressSerializer(address)
             return Response(data=serializer.data, status=status.HTTP_200_OK)

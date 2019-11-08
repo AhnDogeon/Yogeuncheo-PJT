@@ -16,8 +16,7 @@
                 >
                     <v-slide-group
                             v-model="model"
-                            :prev-icon="prevIcon ? 'mdi-minus' : undefined"
-                            :next-icon="nextIcon ? 'mdi-plus' : undefined"
+
                             :show-arrows="showArrows"
                     >
                         <v-slide-item

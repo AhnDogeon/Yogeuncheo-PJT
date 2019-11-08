@@ -48,8 +48,17 @@
                 const params = {
                     searchAddress: this.searchAddress,
                 };
+                console.log("search : " + this.$store.state.data.dong2.address);
+                this.initScore();
                 this.getScoreOfDong(params);
             },
+          async initScore() {
+            console.log("initScore");
+            const params = { dong2 : { address : "" }};
+
+            console.log("search2 : " + this.$store.state.data.dong2.address);
+            this.$store.commit("data/initDong2", params.dong2);
+          },
             dialogClose() {
                 this.dialogOpen = false
             }
