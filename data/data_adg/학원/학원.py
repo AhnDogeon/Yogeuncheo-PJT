@@ -3,11 +3,10 @@ import urllib.request
 import csv
 import pandas as pd
 
-
 client_id = "cGQPySd4kIgkemMRa0t7"
 client_secret = "b85YEslxV7"
 
-code = '교육,학문>중학교'
+code = '학원'
 gu_list = ['서울특별시 종로구', '서울특별시 중구', '서울특별시 용산구', '서울특별시 성동구',
               '서울특별시 광진구','서울특별시 동대문구','서울특별시 중랑구','서울특별시 성북구',
               '서울특별시 강북구','서울특별시 도봉구','서울특별시 노원구','서울특별시 은평구',
@@ -16,11 +15,11 @@ gu_list = ['서울특별시 종로구', '서울특별시 중구', '서울특별�
               '서울특별시 관악구','서울특별시 서초구','서울특별시 강남구','서울특별시 송파구',
               '서울특별시 강동구']
 
-brand_list = ['중학교']
+brand_list = ['학원']
 # pandas column 지정
 df = pd.DataFrame(columns=['title', 'address', 'roadAddress', 'mapx', 'mapy', 'category', 'description', 'telephone'])
 
-# gu_list 로 서울시 내 구 for문 반복
+# # gu_list 로 서울시 내 구 for문 반복
 for gu in gu_list:
     # brand_list 안을 돌면서 업체 지정
     for brands in brand_list:
@@ -59,6 +58,8 @@ for gu in gu_list:
                 rescode = response.getcode()
 
                 start += 30
+                if start >= 1000:
+                    break
                 # 서울특별시 강남구를 검색했을 때 다른 구도 같이 검색돼서 제외하는 코드
                 if(rescode==200):
                     json_rt = response.read().decode('utf-8')
@@ -81,4 +82,4 @@ for gu in gu_list:
         print(df)
 
 # df를 모두 추가한 최종본을 txt파일로 변환
-df.to_csv("중학교.txt",mode="w")
+df.to_csv("학원.txt",mode="w")

@@ -7,7 +7,7 @@ import pandas as pd
 client_id = "cGQPySd4kIgkemMRa0t7"
 client_secret = "b85YEslxV7"
 
-code = '초등학교'
+code = '교육,학문>초등학교'
 gu_list = ['서울특별시 종로구', '서울특별시 중구', '서울특별시 용산구', '서울특별시 성동구',
               '서울특별시 광진구','서울특별시 동대문구','서울특별시 중랑구','서울특별시 성북구',
               '서울특별시 강북구','서울특별시 도봉구','서울특별시 노원구','서울특별시 은평구',
@@ -81,4 +81,4 @@ for gu in gu_list:
         print(df)
 
 # df를 모두 추가한 최종본을 txt파일로 변환
-# df.to_csv("경찰서.txt",mode="w")
+df.to_csv("초등학교.txt",mode="w")
