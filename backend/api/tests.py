@@ -6,7 +6,7 @@ import json
 
 # Create your tests here.
 def create_data():
-    result = pd.read_csv('../data/data_adg/last_data.txt', sep=",", encoding="utf-8")
+    result = pd.read_csv('../data/data_adg/지하철_교육시설포함_최종.txt', sep=",", encoding="utf-8")
     # result = pd.DataFrame(result,columns=["result_id","address", "gu", "dong", "mac_score", "lot_score",
     #                       "burgerking_score",'seveneleven_score', 'cu_score', 'gs25_score', 'starbucks_score', 'lottecinema_score',
     #                       'megabox_score', 'cgv_score', 'total_score', 'high_oil', 'oil' 'oil2', 'total', 'catch', 'percent', 'mac_count',
@@ -59,6 +59,11 @@ def create_data():
             second_mapy = result.loc[i]['second_mapy'],
             third_mapx = result.loc[i]['third_mapx'],
             third_mapy = result.loc[i]['third_mapy'],
+            elementary_count= result.loc[i]['elementary_count'],
+            middle_count=result.loc[i]['middle_count'],
+            high_count=result.loc[i]['high_count'],
+            park_count=result.loc[i]['park_count'],
+            station=result.loc[i]['station']
         )
         print(i, '/', len(result))
         a.save()

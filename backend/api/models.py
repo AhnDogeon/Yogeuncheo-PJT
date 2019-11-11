@@ -49,5 +49,11 @@ class TotalAddress(models.Model):
     third_mapx = models.FloatField(default=0.0, blank=True, null=True)
     third_mapy = models.FloatField(default=0.0, blank=True, null=True)
 
+    elementary_count = models.IntegerField(default=0, blank=True, null=True)
+    middle_count = models.IntegerField(default=0, blank=True, null=True)
+    high_count = models.IntegerField(default=0, blank=True, null=True)
+    park_count = models.IntegerField(default=0, blank=True, null=True)
+    station = models.CharField(max_length=200, blank=True, null=True)
+
     def __str__(self):
         return "{}: {}".format(self.id, self.address)

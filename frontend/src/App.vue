@@ -1,26 +1,6 @@
 <template>
     <v-app id="app">
         <v-container class="container-box">
-            <!--<v-layout justify-end class="login-btn">-->
-            <!--        <v-dialog v-model="$store.state.authDialog">-->
-            <!--          <template v-slot:activator="{ on }">-->
-            <!--&lt;!&ndash;            <v-btn text v-on="on">&ndash;&gt;-->
-            <!--&lt;!&ndash;              로그인&ndash;&gt;-->
-            <!--&lt;!&ndash;            </v-btn>&ndash;&gt;-->
-            <!--            <div v-if="access_token">-->
-            <!--              <v-btn>로그아웃</v-btn>-->
-            <!--            </div>-->
-            <!--            <div v-else>-->
-            <!--              <KakaoLogin-->
-            <!--                api-key="cea5b8ae3384be46febd687ef54537dc"-->
-            <!--                image="kakao_login_btn_small"-->
-            <!--                :on-success=onSuccess-->
-            <!--                :on-failure=onFailure-->
-            <!--              />-->
-            <!--            </div>-->
-            <!--          </template>-->
-            <!--        </v-dialog>-->
-            <!--</v-layout>-->
             <v-layout class="layout-box" justify-center style="margin-top: 5vh;">
                 <p style="margin-left: 8vw;" @click="goMain">
                     요 근 처
@@ -38,18 +18,6 @@
 
 <script>
     import router from './router';
-
-    let onSuccess = (data) => {
-        console.log(data.access_token);
-        // console.log(this.access_token);
-        // this.access_token=data.access_token;
-        // console.log(this.access_token);
-        console.log("success")
-    }
-    let onFailure = (data) => {
-        console.log(data)
-        console.log("failure")
-    }
 
     export default {
         components: {
@@ -79,12 +47,16 @@
         font-family: 'Noto Sans KR', sans-serif;
     }
 
-
     .layout-box {
         font-family: 'Black Han Sans', sans-serif;
         font-size: 5vw;
-        margin-top: ;
     }
+    @media screen and (max-width: 767px) {
+        .layout-box
+        { font-size:50px;
+        }
+    }
+
 
     .yo-img1 {
         height: 5vw;
@@ -94,6 +66,20 @@
         -moz-animation: yo-img1 1s infinite;
         animation: yo-img1 1s infinite;
     }
+
+    @media screen and (max-width: 767px) {
+        .yo-img1
+        {
+        height: 50px;
+        position: relative;
+        top: 0.5vw;
+        -webkit-animation: yo-img1 1s infinite;
+        -moz-animation: yo-img1 1s infinite;
+        animation: yo-img1 1s infinite;
+        }
+    }
+
+
 
     @-webkit-keyframes yo-img1 {
         0% {
@@ -130,6 +116,18 @@
         -webkit-animation: yo-img2 1s infinite;
         -moz-animation: yo-img2 1s infinite;
         animation: yo-img2 1s infinite;
+    }
+
+    @media screen and (max-width: 767px) {
+        .yo-img2
+        {
+        height: 49px;
+        position: relative;
+        right: 52px;
+        -webkit-animation: yo-img2 1s infinite;
+        -moz-animation: yo-img2 1s infinite;
+        animation: yo-img2 1s infinite;
+        }
     }
 
     @-webkit-keyframes yo-img2 {

@@ -3,158 +3,190 @@
     <v-layout justify-center class="main-description1">
       지도를 클릭해서
       <span class="main-description2">
-        가고 싶은 동네의
+        원하는 동네의
       </span>
-      자세한 점수를 확인해보세요!
+      자세한 정보를 확인해보세요!
     </v-layout>
-
     <v-row class="seoul-maps" dense>
-      <v-col id="map" class="col-lg-6 col-12" style="width:38vw; height:38vw;" />
-      <v-col class="col-lg-6 col-12">
-        <v-row>
-          <v-layout v-if="dong2_name">
-            <div style="min-width: 30px;">
-              <v-select v-model="selected_dong" style="width: 80%; margin-left: 2vw;" :label="dong2_name"
-                        :items="dong_list" item-color="blue-grey lighten-5" outlined
-              />
-            </div>
-            <div>
-              <v-icon style=" margin-top: 1vw; font-size: 1.5vw;" @click="getScore">
-                mdi-magnify
-              </v-icon>
-            </div>
-          </v-layout>
-          <v-layout v-else-if="dong_origin">
-            <div style="min-width: 30px;">
-              <v-select v-model="dong_origin_name" style="width: 80%; margin-left: 2vw;"
-                        :label="dong_origin.gu"
-                        :items="[dong_origin.dong]" item-color="blue-grey lighten-5" outlined
-                        return-object
-              />
-            </div>
-            <div>
-              <v-icon style="margin-left: 0.8vw; margin-top: 1vw; font-size: 1.5vw;" @click="getScore">
-                mdi-magnify
-              </v-icon>
-            </div>
-          </v-layout>
-        </v-row>
-        <v-row>
-          <div v-if="dong2.address !== ''"
-               style="font-family: 'Noto Sans KR', sans-serif; margin-left: 2vw; margin-top: -1vw;"
-          >
-            <p style="font-size: 1.5vw; font-weight: 700; color: #6567A8;">
-              {{ dong2.address }}<span
-                style="color: black;"
-              >의 정보 입니다.</span>
+      <v-col class="col-md-6 col-12" id="map"></v-col>
+      <v-col class="col-md-6 col-12">
+        <v-col class="col-12">
+            <v-layout v-if="dong2_name">
+              <v-select class="col-10 col-md-7" v-model="selected_dong" :label="dong2_name"
+                        :items="dong_list" item-color="blue-grey lighten-5" outlined></v-select>
+              <v-icon class="col-2" style="margin-bottom: 20px; margin-left:-15px; font-size: 30px;" @click="getScore">mdi-magnify</v-icon>
+            </v-layout>
+            <v-layout v-else="dong_origin">
+              <v-select class="col-10 col-md-7" v-model="dong_origin_name" :label="dong_origin.gu"
+                        :items="dong_origin.dong" item-color="blue-grey lighten-5" outlined></v-select>
+              <v-icon class="col-2" style="margin-bottom: 20px; margin-left:-15px; font-size: 30px;" @click="getScore">mdi-magnify</v-icon>
+            </v-layout>
+        </v-col>
+        <v-col class="col-12">
+          <div v-if="dong2_name" class="map-description">
+            <p style="font-size: 20px; font-weight: 700; color: #6567A8;">{{ dong2.address }}<span
+                style="color: black;">의 정보 입니다.</span></p>
+            <p style="font-size: 20px; font-weight: 700; color: #a82a1a;">추천 동네 :<span style="margin-left:1vw; color: black">{{ dong2.first }}, {{ dong2.second }}, {{ dong2.third }}</span></p>
+            <p style="font-size: 20px; font-weight: 700; color: #a82a1a;">역세권 :
+              <span style="margin-left:1vw; color: black">{{ dong2.station }}</span>
             </p>
-            <div style="font-size: 1.1vw; font-weight: 500; margin-left: 1vw;">
-              <v-row style="font-size: 1.4vw; font-weight: 700; color: #a84a54;">추천 동네 : <span style="margin-left:1vw; color: black">{{ dong2.first }}, {{ dong2.second }}, {{ dong2.third }}</span></v-row>
-              <v-row style="font-size: 1.6vw; font-bold: 700; margin-top: 1.5vw">
-                편의시설 {{ dong2.total_count }}개
-              </v-row>
-              <v-row>
-                <v-row>
-                  <v-col>🍔 맥도날드 : {{ dong2.mac_count }}개</v-col>
-                  <v-col>🍟 롯데리아 : {{ dong2.lot_count }}개</v-col>
-                  <v-col>🥤 버거킹 : {{ dong2.burgerking_count }}개</v-col>
-                </v-row>
-                <v-row>
-                  <v-col>🏠 CU : {{ dong2.cu_count }}개</v-col>
-                  <v-col>🍱 gs25 : {{ dong2.gs25_count }}개</v-col>
-                  <v-col>🥡 세븐일레븐 : {{ dong2.seveneleven_count }}개</v-col>
-                </v-row>
-                <v-row>
-                  <v-col>☕ 스타벅스 : {{ dong2.starbucks_count }}개</v-col>
-                  <v-col>🎥 CGV : {{ dong2.cgv_count }}개</v-col>
-                  <v-col>🎞️ 메가박스 : {{ dong2.megabox_count }}개</v-col>
-                </v-row>
-                <v-row>
-                  <v-col>🍿 롯데시네마 : {{ dong2.lottecinema_count }}개</v-col>
-                </v-row>
-              </v-row>
-              <hr style="border-top: 0.1vw solid black;">
-
-              <v-row style="font-size: 1.6vw; font-bold: 700; margin-top: 1vw;">
-                <p>유가정보</p>
-              </v-row>
-              <v-row style="margin-top: -0.9vw;">
-                <v-col>고급 휘발유 : {{ dong2.high_oil }} 원</v-col>
-                <v-col>휘발유 : {{ dong2.oil }} 원</v-col>
-                <v-col>경유 : {{ dong2.oil2 }} 원</v-col>
-              </v-row>
-
-              <hr style="border-top: 0.15vw solid black;">
-              <v-row style="font-size: 1.6vw; font-bold: 700; margin-top: 0.8vw;">
-                <p>안전지수</p>
-              </v-row>
-              <v-row style="margin-top: -0.9vw;">
-                <v-col>발생건수 : {{ dong2.total }} 건</v-col>
-                <v-col>검거건수 : {{ dong2.catch }} 건</v-col>
-                <v-col>검거율 : {{ dong2.percent }} 퍼센트</v-col>
-              </v-row>
-            </div>
-          </div>
-          <div v-else
-               style="font-family: 'Noto Sans KR', sans-serif; margin-left: 2vw; margin-top: -1vw;"
-          >
-            <p style="font-size: 1.5vw; font-weight: 700; color: #6567A8;">
-              {{ dong_origin.address }}<span
-                style="color: black;"
-              >의 정보 입니다.</span>
+            <hr style="border-top: 1px solid black;">
+            <p v-if="dong2.total_score <= 10" style="font-size: 20px; font-weight: 500; margin-top: 0;">
+              편의시설 {{ dong2.total_count }}개 <span style="color: #ff3a29; font-weight: 600;">적음</span>
             </p>
-            <div style="font-size: 1.1vw; font-weight: 500; margin-left: 1vw;">
-              <v-row style="font-size: 1.4vw; font-weight: 700; color: #a84a54;">추천 동네 : <span style="margin-left:1vw; color: black">{{ dong_origin.first }}, {{ dong_origin.second }}, {{ dong_origin.third }}</span></v-row>
-              <v-row style="font-size: 1.6vw; font-bold: 700; margin-top: 1.5vw">
-                편의시설 {{ dong_origin.total_count }}개
-              </v-row>
-              <v-row>
-                <v-row>
-                  <v-col>🍔 맥도날드 : {{ dong_origin.mac_count }}개</v-col>
-                  <v-col>🍟 롯데리아 : {{ dong_origin.lot_count }}개</v-col>
-                  <v-col>🥤 버거킹 : {{ dong_origin.burgerking_count }}개</v-col>
-                </v-row>
-                <v-row>
-                  <v-col>🏠 CU : {{ dong_origin.cu_count }}개</v-col>
-                  <v-col>🍱 gs25 : {{ dong_origin.gs25_count }}개</v-col>
-                  <v-col>🥡 세븐일레븐 : {{ dong_origin.seveneleven_count }}개</v-col>
-                </v-row>
-                <v-row>
-                  <v-col>☕ 스타벅스 : {{ dong_origin.starbucks_count }}개</v-col>
-                  <v-col>🎥 CGV : {{ dong_origin.cgv_count }}개</v-col>
-                  <v-col>🎞️ 메가박스 : {{ dong_origin.megabox_count }}개</v-col>
-                </v-row>
-                <v-row>
-                  <v-col>🍿 롯데시네마 : {{ dong_origin.lottecinema_count }}개</v-col>
-                </v-row>
-              </v-row>
-              <hr style="border-top: 0.1vw solid black;">
-
-              <v-row style="font-size: 1.6vw; font-bold: 700; margin-top: 1vw;">
-                <p>유가정보</p>
-              </v-row>
-              <v-row style="margin-top: -0.9vw;">
-                <v-col>고급 휘발유 : {{ dong_origin.high_oil }} 원</v-col>
-                <v-col>휘발유 : {{ dong_origin.oil }} 원</v-col>
-                <v-col>경유 : {{ dong_origin.oil2 }} 원</v-col>
-              </v-row>
-
-              <hr style="border-top: 0.15vw solid black;">
-              <v-row style="font-size: 1.6vw; font-bold: 700; margin-top: 0.8vw;">
-                <p>안전지수</p>
-              </v-row>
-              <v-row style="margin-top: -0.9vw;">
-                <v-col>발생건수 : {{ dong_origin.total }} 건</v-col>
-                <v-col>검거건수 : {{ dong_origin.catch }} 건</v-col>
-                <v-col>검거율 : {{ dong_origin.percent }} 퍼센트</v-col>
-              </v-row>
-            </div>
+            <p v-else-if="dong2.total_score <= 45" style="font-size: 20px; font-weight: 500; margin-top: 0;">
+              편의시설 {{ dong2.total_count }}개 <span style="color: #ff6a07; font-weight: 600;">평균</span>
+            </p>
+            <p v-else-if="46 <= dong2.total_score" style="font-size: 20px; font-weight: 500; margin-top: 0;">
+              편의시설 {{ dong2.total_count }}개 <span style="color: #025523; font-weight: 600;">많음</span>
+            </p>
+            <v-row class="col-12" style="padding: 0;">
+              <v-col>🍔 맥도날드 : {{ dong2.mac_count }}개</v-col>
+              <v-col>🍟 롯데리아 : {{ dong2.lot_count }}개</v-col>
+              <v-col>🥤 버거킹 : {{ dong2.burgerking_count }}개</v-col>
+            </v-row>
+            <v-row class="col-12" style="padding: 0;">
+              <v-col>🏠 CU : {{ dong2.cu_count }}개</v-col>
+              <v-col>🍱 gs25 : {{ dong2.gs25_count }}개</v-col>
+              <v-col>🥡 세븐일레븐 : {{ dong2.seveneleven_count }}개</v-col>
+            </v-row>
+            <v-row class="col-12" style="padding: 0;">
+              <v-col>☕ 스타벅스 : {{ dong2.starbucks_count }}개</v-col>
+              <v-col>🎥 CGV : {{ dong2.cgv_count }}개</v-col>
+              <v-col>🎞️ 메가박스 : {{ dong2.megabox_count }}개</v-col>
+            </v-row>
+            <v-row class="col-12" style="padding: 0;">
+              <v-col>🍿 롯데시네마 : {{ dong2.lottecinema_count }}개</v-col>
+            </v-row>
+            <hr style="border-top: 1px solid black;">
+            <p v-if="dong2.park_count <= 5" style="font-size: 20px; font-weight: 500; margin-top: 0;">
+              공원 {{ dong2.park_count }}개 <span style="color: #ff3a29; font-weight: 600;">낮음</span>
+            </p>
+            <p v-else-if="dong2.park_count <= 15" style="font-size: 20px; font-weight: 500; margin-top: 0;">
+              공원 {{ dong2.park_count }}개 <span style="color: #ff6a07; font-weight: 600;">보통</span>
+            </p>
+            <p v-else-if="16 <= dong2.park_count" style="font-size: 20px; font-weight: 500; margin-top: 0;">
+              공원 {{ dong2.park_count }}개 <span style="color: #025523; font-weight: 600;">쾌적</span>
+            </p>
+            <hr style="border-top: 1px solid black;">
+            <v-row class="col-12" v-if="dong2.elementary_count + dong2.middle_count + dong2.high_count <= 10" style="font-size: 20px; font-weight: 500; margin-top: 0;">
+              교육지수 <span style="color: #ff3a29; font-weight: 600; margin-left: 5px;"> 낮음</span>
+            </v-row>
+            <v-row class="col-12" v-else-if="dong2.elementary_count + dong2.middle_count + dong2.high_count <= 20" style="font-size: 20px; font-weight: 500; margin-top: 0;">
+              교육지수 <span style="color: #ff6a07; font-weight: 600; margin-left: 5px;"> 보통</span>
+            </v-row>
+            <v-row class="col-12" v-else-if="21 <= dong2.elementary_count + dong2.middle_count + dong2.high_count" style="font-size: 20px; font-weight: 500; margin-top: 0;">
+              교육지수 <span style="color: #025523; font-weight: 600; margin-left: 5px;"> 높음</span>
+            </v-row>
+            <v-row class="col-12" style="padding: 0;">
+              <v-col>초등학교 : {{ dong2.elementary_count }} 개</v-col>
+              <v-col>중학교 : {{ dong2.middle_count }} 개</v-col>
+              <v-col>고등학교 : {{ dong2.high_count }} 개</v-col>
+            </v-row>
+            <hr style="border-top: 1px solid black;">
+            <v-row class="col-12" style="font-size: 20px; font-weight: 500; margin-top: 0;">
+              유가정보
+            </v-row>
+            <v-row class="col-12" style="padding: 0;">
+              <v-col>고급 휘발유 : {{ dong2.high_oil }} 원</v-col>
+              <v-col>휘발유 : {{ dong2.oil }} 원</v-col>
+              <v-col>경유 : {{ dong2.oil2 }} 원</v-col>
+            </v-row>
+            <hr style="border-top: 1px solid black;">
+            <v-row class="col-12" style="font-size: 20px; font-weight: 500; margin-top: 0;">
+              안전지수
+            </v-row>
+            <v-row style="margin-top: -0.9vw;">
+              <v-col>발생건수 : {{ dong2.total }} 건</v-col>
+              <v-col>검거건수 : {{ dong2.catch }} 건</v-col>
+              <v-col>검거율 : {{ dong2.percent }} %</v-col>
+            </v-row>
           </div>
-        </v-row>
+          <div v-else-if="dong_origin" class="map-description">
+            <p style="font-size: 20px; font-weight: 700; color: #6567A8;">{{ dong_origin.address }}<span
+                style="color: black;">의 정보 입니다.</span></p>
+            <p style="font-size: 20px; font-weight: 700; color: #a82a1a;">추천 동네 :<span style="margin-left:1vw; color: black">{{ dong_origin.first }}, {{ dong_origin.second }}, {{ dong_origin.third }}</span></p>
+            <p style="font-size: 20px; font-weight: 700; color: #a82a1a;">역세권 :
+              <span style="margin-left:1vw; color: black">{{ dong_origin.station }}</span>
+            </p>
+            <hr style="border-top: 1px solid black;">
+            <p v-if="dong_origin.total_score <= 10" style="font-size: 20px; font-weight: 500; margin-top: 0;">
+              편의시설 {{ dong_origin.total_count }}개 <span style="color: #ff3a29; font-weight: 600;">적음</span>
+            </p>
+            <p v-else-if="dong_origin.total_score <= 45" style="font-size: 20px; font-weight: 500; margin-top: 0;">
+              편의시설 {{ dong_origin.total_count }}개 <span style="color: #ff6a07; font-weight: 600;">평균</span>
+            </p>
+            <p v-else-if="46 <= dong_origin.total_score" style="font-size: 20px; font-weight: 500; margin-top: 0;">
+              편의시설 {{ dong_origin.total_count }}개 <span style="color: #025523; font-weight: 600;">많음</span>
+            </p>
+            <v-row class="col-12" style="padding: 0;">
+              <v-col>🍔 맥도날드 : {{ dong_origin.mac_count }}개</v-col>
+              <v-col>🍟 롯데리아 : {{ dong_origin.lot_count }}개</v-col>
+              <v-col>🥤 버거킹 : {{ dong_origin.burgerking_count }}개</v-col>
+            </v-row>
+            <v-row class="col-12" style="padding: 0;">
+              <v-col>🏠 CU : {{ dong_origin.cu_count }}개</v-col>
+              <v-col>🍱 gs25 : {{ dong_origin.gs25_count }}개</v-col>
+              <v-col>🥡 세븐일레븐 : {{ dong_origin.seveneleven_count }}개</v-col>
+            </v-row>
+            <v-row class="col-12" style="padding: 0;">
+              <v-col>☕ 스타벅스 : {{ dong_origin.starbucks_count }}개</v-col>
+              <v-col>🎥 CGV : {{ dong_origin.cgv_count }}개</v-col>
+              <v-col>🎞️ 메가박스 : {{ dong_origin.megabox_count }}개</v-col>
+            </v-row>
+            <v-row class="col-12" style="padding: 0;">
+              <v-col>🍿 롯데시네마 : {{ dong_origin.lottecinema_count }}개</v-col>
+            </v-row>
+            <hr style="border-top: 1px solid black;">
+            <p v-if="dong_origin.park_count <= 5" style="font-size: 20px; font-weight: 500; margin-top: 0;">
+              공원 {{ dong_origin.park_count }}개 <span style="color: #ff3a29; font-weight: 600;">낮음</span>
+            </p>
+            <p v-else-if="dong_origin.park_count <= 15" style="font-size: 20px; font-weight: 500; margin-top: 0;">
+              공원 {{ dong_origin.park_count }}개 <span style="color: #ff6a07; font-weight: 600;">보통</span>
+            </p>
+            <p v-else-if="16 <= dong_origin.park_count" style="font-size: 20px; font-weight: 500; margin-top: 0;">
+              공원 {{ dong_origin.park_count }}개 <span style="color: #025523; font-weight: 600;">쾌적</span>
+            </p>
+            <hr style="border-top: 1px solid black;">
+            <v-row class="col-12" v-if="dong_origin.elementary_count + dong_origin.middle_count + dong_origin.high_count <= 10" style="font-size: 20px; font-weight: 500; margin-top: 0;">
+              교육지수 <span style="color: #ff3a29; font-weight: 600; margin-left: 5px;"> 낮음</span>
+            </v-row>
+            <v-row class="col-12" v-else-if="dong_origin.elementary_count + dong_origin.middle_count + dong_origin.high_count <= 20" style="font-size: 20px; font-weight: 500; margin-top: 0;">
+              교육지수 <span style="color: #ff6a07; font-weight: 600; margin-left: 5px;"> 보통</span>
+            </v-row>
+            <v-row class="col-12" v-else-if="21 <= dong_origin.elementary_count + dong_origin.middle_count + dong_origin.high_count" style="font-size: 20px; font-weight: 500; margin-top: 0;">
+              교육지수 <span style="color: #025523; font-weight: 600; margin-left: 5px;"> 높음</span>
+            </v-row>
+            <v-row class="col-12" style="padding: 0;">
+              <v-col>초등학교 : {{ dong_origin.elementary_count }} 개</v-col>
+              <v-col>중학교 : {{ dong_origin.middle_count }} 개</v-col>
+              <v-col>고등학교 : {{ dong_origin.high_count }} 개</v-col>
+            </v-row>
+            <hr style="border-top: 1px solid black;">
+            <v-row class="col-12" style="font-size: 20px; font-weight: 500; margin-top: 0;">
+              유가정보
+            </v-row>
+            <v-row class="col-12" style="padding: 0;">
+              <v-col>고급 휘발유 : {{ dong_origin.high_oil }} 원</v-col>
+              <v-col>휘발유 : {{ dong_origin.oil }} 원</v-col>
+              <v-col>경유 : {{ dong_origin.oil2 }} 원</v-col>
+            </v-row>
+            <hr style="border-top: 1px solid black;">
+            <v-row class="col-12" style="font-size: 20px; font-weight: 500; margin-top: 0;">
+              안전지수
+            </v-row>
+            <v-row style="margin-top: -0.9vw;">
+              <v-col>발생건수 : {{ dong_origin.total }} 건</v-col>
+              <v-col>검거건수 : {{ dong_origin.catch }} 건</v-col>
+              <v-col>검거율 : {{ dong_origin.percent }} %</v-col>
+            </v-row>
+          </div>
+        </v-col>
       </v-col>
     </v-row>
+
   </v-content>
-</template>​
+</template>
 <script>
     import seoul_coor from '../../assets/seoul';
     import {mapActions} from 'vuex';
@@ -317,218 +349,73 @@
 </script>
 
 <style>
-    .seoul-maps {
-        margin-top: 2vw;
-    }
+  .seoul-maps {
+    margin-top: 2vw;
+  }
 
-    .main-description1 {
-        font-family: 'Noto Sans KR', sans-serif;
-        font-weight: 700;
-        font-size: 2vw;
-        margin-top: 2vh;
-        margin-left: 1vw;
-    }
+  .main-description1 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 2vw;
+    margin-top: 2vh;
+    margin-left: 1vw;
+  }
 
-    .main-description2 {
-        color: #6567A8;
-        margin-left: 0.8vw;
-        margin-right: 0.5vw;
+   @media screen and (max-width: 767px) {
+      .main-description1{
+      font-family: 'Noto Sans KR', sans-serif;
+      font-weight: 700;
+      font-size: 13px;
+      margin-top: -15px;
+      margin-left: 1vw;
     }
+  }
 
+  .main-description2 {
+    color: #6567A8;
+    margin-left: 0.8vw;
+    margin-right: 0.8vw;
+  }
+
+  @media screen and (max-width: 767px) {
     .v-label {
-        font-size: 1vw !important;
+    font-size: 12px !important;
     }
+  }
 
-    .v-select__selection {
-        font-size: 1.2vw !important;
+  #map {
+    width:550px;
+    height:565px;
+  }
+
+  @media screen and (max-width: 767px) {
+    #map {
+      width:500px;
+      height:250px;
     }
+  }
 
-    /*wave 애니메이션 */
-    .waves1 {
-        position: absolute;
-        left: 20vw;
-        top: 28vh;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        background: rgba(255, 129, 109, 0.4);
-        width: 25px;
-        height: 25px;
-        border-radius: 50%;
-    }
+  .area {
+    position: absolute;
+    background: #fff;
+    border: 1px solid #888;
+    border-radius: 3px;
+    font-size: 12px;
+    top: -5px;
+    left: 15px;
+    padding: 2px;
+  }
 
-    .waves1:before, .waves1:after {
-        content: "";
-        position: absolute;
-        background: #ff5456;
-        margin-left: -12px;
-        margin-top: -12px;
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        -webkit-animation: wave1 3s infinite linear;
-        animation: wave1 3s infinite linear;
-    }
+  .map-description {
+    font-size: 16px;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-top: -40px;
+  }
 
-    .waves1:after {
-        opacity: 0;
-        -webkit-animation: wave1 3s 1.5s infinite linear;
-        animation: wave1 3s 1.5s infinite linear;
-    }
-
-    @-webkit-keyframes wave1 {
-        0% {
-            -webkit-transform: scale(0);
-            transform: scale(0);
-            opacity: 1;
-        }
-        100% {
-            -webkit-transform: scale(2);
-            transform: scale(2);
-            opacity: 0;
-        }
-    }
-
-
-    @keyframes wave1 {
-        0% {
-            -webkit-transform: scale(0);
-            transform: scale(0);
-            opacity: 1;
-        }
-        100% {
-            -webkit-transform: scale(2);
-            transform: scale(2);
-            opacity: 0;
-        }
-    }
-
-    /*wave2 애니메이션 */
-    .waves2 {
-        position: absolute;
-        left: 12vw;
-        top: 50vh;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        background: rgba(35, 36, 255, 0.4);
-        width: 25px;
-        height: 25px;
-        border-radius: 50%;
-    }
-
-    .waves2:before, .waves2:after {
-        content: "";
-        position: absolute;
-        background: #7fa7ff;
-        margin-left: -12px;
-        margin-top: -12px;
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        -webkit-animation: wave2 3s infinite linear;
-        animation: wave2 3s infinite linear;
-    }
-
-    .waves2:after {
-        opacity: 0;
-        -webkit-animation: wave2 3s 1.5s infinite linear;
-        animation: wave2 3s 1.5s infinite linear;
-    }
-
-    @-webkit-keyframes wave2 {
-        0% {
-            -webkit-transform: scale(0);
-            transform: scale(0);
-            opacity: 1;
-        }
-        100% {
-            -webkit-transform: scale(2);
-            transform: scale(2);
-            opacity: 0;
-        }
-    }
-
-
-    @keyframes wave2 {
-        0% {
-            -webkit-transform: scale(0);
-            transform: scale(0);
-            opacity: 1;
-        }
-        100% {
-            -webkit-transform: scale(2);
-            transform: scale(2);
-            opacity: 0;
-        }
-    }
-
-    /*wave3 애니메이션 */
-    .waves3 {
-        position: absolute;
-        left: 30vw;
-        top: 55vh;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        background: rgba(255, 226, 59, 0.4);
-        width: 25px;
-        height: 25px;
-        border-radius: 50%;
-    }
-
-    .waves3:before, .waves3:after {
-        content: "";
-        position: absolute;
-        background: #ff983d;
-        margin-left: -12px;
-        margin-top: -12px;
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        -webkit-animation: wave3 3s infinite linear;
-        animation: wave3 3s infinite linear;
-    }
-
-    .waves3:after {
-        opacity: 0;
-        -webkit-animation: wave3 3s 1.5s infinite linear;
-        animation: wave3 3s 1.5s infinite linear;
-    }
-
-
-    @-webkit-keyframes wave3 {
-        0% {
-            -webkit-transform: scale(0);
-            transform: scale(0);
-            opacity: 1;
-        }
-        100% {
-            -webkit-transform: scale(2);
-            transform: scale(2);
-            opacity: 0;
-        }
-    }
-
-
-    @keyframes wave3 {
-        0% {
-            -webkit-transform: scale(0);
-            transform: scale(0);
-            opacity: 1;
-        }
-        100% {
-            -webkit-transform: scale(2);
-            transform: scale(2);
-            opacity: 0;
-        }
-    }
-
-    .area {
-        position: absolute;
-        background: #fff;
-        border: 1px solid #888;
-        border-radius: 3px;
-        font-size: 12px;
-        top: -5px;
-        left: 15px;
-        padding: 2px;
-    }
+  @media screen and (max-width: 767px) {
+    .map-description {
+      font-size: 14px;
+      font-family: 'Noto Sans KR', sans-serif;
+  }
+  }
 </style>

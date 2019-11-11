@@ -28,8 +28,7 @@
                              :href="item.url">
                             <v-card flat
                                     color="#00ff0000"
-                                    style="margin: 0 1vw;"
-                                    width="9.5vw"
+                                    class="card1"
                                     @click="onCardClick(n)"
                             >
                                 <v-img :src="item.src" height="7.8vw">
@@ -149,17 +148,50 @@
         margin-bottom: 5vh;
     }
 
+    @media screen and (max-width: 767px) {
+        .recommend-title
+        {
+        font-family: 'Noto Sans KR', sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        margin-top: 3vh;
+        margin-bottom: 5vh;
+        }
+    }
 
     .v-slide-group {
         background-color: #F2C766;
     }
+
+    .card1 {
+        margin: 0 1vw;
+        width: 144px;
+    }
+
+    @media screen and (max-width: 767px) {
+        .card1 {
+            margin: 0 1vw;
+            width: 100px;
+        }
+    }
+
 
     .card-description {
         background: rgba(255, 255, 255, 0.8);
         font-weight: 500;
         font-family: 'Noto Sans KR', sans-serif;
         padding: 1.1vh 1vw;
-        font-size: 1vw;
+        font-size: 14px;
+    }
+
+    @media screen and (max-width: 767px) {
+        .card-description {
+            background: rgba(255, 255, 255, 0.8);
+            font-weight: 500;
+            font-family: 'Noto Sans KR', sans-serif;
+            padding: 1.1vh 1vw;
+            font-size: 12px;
+    }
     }
 
     .description-title {

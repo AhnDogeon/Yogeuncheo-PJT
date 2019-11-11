@@ -10,7 +10,7 @@
 
 
       <v-row class="justify-center" style="margin-top: 2vw;">
-        <v-col class="col-5" style="margin-left: 2.5vw;">
+        <v-col class="col-9 col-md-5 text1" style="margin-left: 2.5vw;">
           <v-text-field color="v-label" v-model="searchAddress" label="서울특별시 OO구 OO동을 정확히 입력하세요" @keypress.enter.prevent="onSubmit" outlined/>
         </v-col>
         <v-col class="col-1" style="margin-left: -2vw;">
@@ -75,25 +75,28 @@
     margin-left: 1vw;
   }
 
+  @media screen and (max-width: 767px) {
+    .main-description1 {
+      font-family: 'Noto Sans KR', sans-serif;
+      font-weight: 700;
+      font-size: 18px;
+      margin-top: 2vh;
+      margin-left: 1vw;
+    }
+  }
+
   .main-description2 {
     color: #6567A8;
     margin-left: 0.8vw;
   }
 
-  .search-form {
-    width: 1vw;
-    margin: 8vh auto 0;
-  }
-
-  .v-label {
-    font-size: 1vw !important;
-  }
-
-  .v-text-field {
-    font-size: 1.2vw !important;
-  }
-
   .mdi {
     font-size: 2vw !important;
+  }
+
+  @media screen and (max-width: 767px) {
+    .mdi {
+      font-size: 20px !important;
+    }
   }
 </style>
